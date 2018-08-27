@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>
+SeedGenes Profile: CIA 5
+</title>
+<link rel="STYLESHEET" href="seedgenes.css" type="text/css" />
+<script type="text/javascript" src="seedgenes.js"></script>
+</head><body>
+<div class="header"><div class="logoPos1">&nbsp;</div><div class="logoPos2"><a href="http://www.okstate.edu"><img alt="OSU" src="images/osu.gif" border="0" /></a>&nbsp;<a href="http://www.syngenta.com"><img alt="Syngenta" src="images/syngenta.gif" border="0" /></a>&nbsp;<a href="http://www.vbi.vt.edu"><img alt="vbi" src="images/vbi.gif" border="0" /></a></div><a href="index.html"><img src="images/seedgenes.jpg" width="396" height="76" border="0" /></a></div>
+<div class="menu1"><div class="menu2">
+<div class="date">Aug 17, 2018 4:32 PM</div>
+<a href="index.html">Home</a> | 
+<a href="AccessPage.html">Access Page</a> | <a href="SeedGenesQuery.html">Database Query</a>
+</div></div>
+<div class="main">
+<h1>SeedGenes Profile: CIA 5</h1>
+<table class="nopad" border="0" cellpadding="0" cellspacing="0">
+<tr valign="top"><td class="nopad" width="48%">
+<div class="section">
+<div class="title">Gene Information</div>
+<table cellspacing="0">
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Gene_Symbol">Gene Symbol</a></td><td> <i>CIA 5</i></td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Chromosome_Locus">Chromosome Locus</a></td><td> At2g15290&nbsp;&nbsp; <a class="tair" title="Link to TAIR" href="javascript:tairGene('At2g15290')"><img border="0" src="images/tair.logosmall.gif" alt="tair" /></a></td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Alleles_in_Database">Alleles in Database</a></td><td> 3 &nbsp;&nbsp;<a class="sg" title="Link Into SeedGenes" href="SearchMutants_geneSymbol_CIA_5">See List</a>&nbsp;OR&nbsp;<a class="sg" title="Link Into SeedGenes" href="SeedGeneProfile_allAlleles_Y_geneSymbol_CIA_5">Show All</a></td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Identity_Confidence">Identity Confidence</a></td><td> Confirmed</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Alias_Symbol">Alias Symbol</a></td><td> <i>TIC 21</i> (H.M. Li) Alternate Name</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Gene_Class">Gene Class</a></td><td> Seed Pigment</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Predicted_Function">Predicted Function</a></td><td> Chloroplast Import Protein</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Function_Details">Function Details</a></td><td> None</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Gene_Evidence">Gene Evidence</a></td><td> <dl style="margin: 0">
+<dt>Sequenced Mutant Allele</dt><dd>H.M. Li (1 allele)</dd><dt>Molecular Complementation</dt><dd>H.M. Li (1 allele)</dd><dt>Border Recovery</dt><dd>Li / SAIL (1 allele)</dd><dt>Border Recovery</dt><dd>Li / Salk (1 allele)</dd></dl>
+</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Database_Release">Database Release</a></td><td> December, 2010</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Predicted_Sequences">Predicted Sequences</a></td><td>
+<table class="nopad">
+<tr><td class="noborder">Gene:</td><td class="noborder"><a class="sg" title="Link Into SeedGenes" href="javascript:getSequence('CIA+5', 'gene')">1738 nucleotides</a></td></tr>
+<tr><td class="noborder">mRNA: </td><td class="noborder"><a class="sg" title="Link Into SeedGenes" href="javascript:getSequence('CIA+5', 'rna')">1129 nucleotides</a></td></tr>
+<tr><td class="noborder">Protein:&nbsp;&nbsp;</td><td class="noborder"><a class="sg" title="Link Into SeedGenes" href="javascript:getSequence('CIA+5', 'protein')">296 amino acids</a></td></tr></table></td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#cDNA_Status">cDNA Status</a></td><td> FLcDNA Available: <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=nuccore&amp;term=AY057510">AY057510</a></td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#BLAST_Results">Top BLAST Hits</a></td><td> <table class="nopad"><tr><td class="noborder"><i>Arabidopsis</i>: </td><td class="noborder"><a class="sg" title="Link Into SeedGenes" href="BlastResults_geneSymbol_CIA_5">Only self hit</a></td></tr><tr><td class="noborder">Plant ESTs: </td><td class="noborder"><a class="sg" title="Link Into SeedGenes" href="BlastResults_geneSymbol_CIA_5">Brassica napus (87%)</a></td></tr><tr><td class="noborder">Model Genomes:&nbsp;&nbsp;</td><td class="noborder"> None</td></tr></table></td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Subcellular_Localization">Subcellular Localization</a></td><td> <a class="sg" title="Link Into SeedGenes" href="TargetPDetails_geneSymbol_CIA_5">TargetP</a> Targeted to Chloroplasts<br /><a href="http://suba.plantenergy.uwa.edu.au/flatfile.php?id=At2g15290">SUBA</a></td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#mRNA_Expression_Data">mRNA Expression Data</a></td><td> NASCArray Spot History for <a href="http://128.243.111.177/narrays/spothistory.pl?searchfor=ATH1PS&amp;id=263298_at">263298_at</a></td></tr>
+</table>
+</div></td><td class="nopad" width="20" bgcolor="#2E8E57">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td class="nopad">
+</td></tr></table></div>
+<div class="section">
+<div class="title">Mutant Information</div>
+<table cellspacing="0">
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Allele_Symbol">Allele Symbol</a></td><td> <i>cia 5-2</i></td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Mutant_Class">Mutant Class</a></td><td> Seed Pigment</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Source_of_Mutant">Source of Mutant</a></td><td> Li / SAIL</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Mutant_Line_Number">Mutant Line Number</a></td><td> SAIL_278_B02</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Ecotype">Ecotype</a></td><td> Columbia</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Genetic_Background">Genetic Background</a></td><td> &nbsp;</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#ABRC_Stock">ABRC Stock</a></td><td> &nbsp;</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Mutagen_Treatment">Mutagen Treatment</a></td><td> T-DNA</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Insertion_Mutant">Insertion Mutant</a></td><td> Yes &nbsp;&nbsp;<a class="sg" title="Link Into SeedGenes" href="InsertBorder_alleleSymbol_cia_5-2">Details</a></td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Flanking_Sequence">Flanking Sequence</a></td><td> &nbsp;</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Location_of_Mutation">Location of Mutation</a></td><td> Exon 2</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Terminal_Phenotype_m">Terminal Phenotype</a></td><td> Pigment Defective</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Nomarski_Phenotype">Nomarski Phenotype</a></td><td> &nbsp;</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Allelism_Evidence">Allelism Evidence</a></td><td> Sequence Identity</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Database_Release_m">Database Release</a></td><td> December, 2010</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Seed_Color_m">Seed Color</a></td><td> &nbsp;</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Embryo_Color_m">Embryo Color</a></td><td> &nbsp;</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Percent_Mutant_Seeds">Percent Mutant Seeds</a></td><td> &nbsp;</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Chi_Square_1">Chi - Square</a></td><td> &nbsp;</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Seeds_Counted">Seeds Counted</a></td><td> &nbsp;</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Percent_Top_Half">Percent Top Half</a></td><td> &nbsp;</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Chi_Square_2">Chi - Square</a></td><td> &nbsp;</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Average_Seed_Length">Average Seed Length</a></td><td> &nbsp;</td></tr>
+<tr><td><a class="glossary" title="Glossary Lookup" href="Glossary.html#Average_Embryo_Length">Average Embryo Length</a></td><td> &nbsp;</td></tr>
+</table>
+
+</div>
+
+</body></html>

@@ -1,0 +1,550 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html><head><title>SeedGenes Tutorial</title>
+<link rel="STYLESHEET" href="seedgenes.css" type="text/css">
+    <script language="JavaScript"><!--
+      var dimensions = {
+      'Becky_Siliques.gif': {width: 640, height: 600, caption: 'Silique Structure'},
+      'BW_Montage.jpg': {width: 680, height: 700, caption: 'Mutant and Wild-type Embryos'},
+      'Color_Montage.jpg': {width: 450, height: 600, caption: 'Mutant and Wild-type Embryos'},
+      'Fusca_Images.jpg': {width: 400, height: 700, caption: 'Fusca Phenotype'},
+      'Seeds_vs_Ovules.jpg': {width: 600, height: 600, caption: 'Distinguishing Mutant Seeds vs Unfertilized Ovules'},
+      'Siliques_and_Seeds.jpg': {width: 650, height: 950, caption: 'Mutant and Wild-type Seeds'}
+      }
+      function showPic(image)
+      {
+      winRef=window.open('','tutorialPopup', 'menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1')
+      winRef.resizeTo(dimensions[image].width, dimensions[image].height)
+      winRef.document.writeln(
+      "<html><head><title>SeedGenes Tutorial Illustration</title></head>"
+    +"<body style='background: #e0ffff; text-align: center;' onLoad='self.focus()'><h2>"
+    +dimensions[image].caption	+"</h2><img src=images/tutorial/"+image+"></body></html>");      
+      winRef.document.close()
+      }
+    --></script>
+
+</head>
+<body>
+
+<div class=header><div class=logoPos1>&nbsp;</div><div class=logoPos2>
+
+<a href='http://www.okstate.edu' target='new_window'><img alt='OSU' SRC='images/osu.gif' border=0></a>&nbsp;
+<a href='http://www.syngenta.com' target='new_window'><img alt='Syngenta' SRC='images/syngenta.gif' border=0></a>&nbsp;
+<a href='http://www.vbi.vt.edu' target='new_window'><img alt='VBI' SRC='images/vbi.gif' border=0></a>
+</div>
+<a href='index.html'><img alt="SeedGenes" SRC='images/seedgenes.jpg' width='396' height='76' border=0></a>
+</div>
+
+<div class=menu1>
+ <div class=menu2>
+<a href="index.html">Home</a> | <a href="AccessPage.html">Access Page</a> | <a href="SeedGenesQuery.html">Database Query</a>
+</div>
+</div>
+
+
+<div class=main700>
+<H1>SeedGenes Tutorial</H1>
+
+      <font size=6><b>W</b></FONT>elcome to the tutorial section of the SeedGenes database.  
+We describe here methods used in our laboratory to characterize recessive
+embryo-defective (<I>emb</I>) mutants of <I>Arabidopsis</I>.  This
+information may be of interest if you: (1) want to learn more about
+seed development in <I>Arabidopsis</I>; (2) have found a knockout in
+your gene of interest through reverse genetics but suspect it may be
+lethal because you have not identified a homozygote; (3) want to
+characterize in more detail an existing embryo-defective mutant being
+studied in your laboratory; or (4) want to adopt the protocols we use
+to generate information presented in the SeedGenes database.  Links
+provided in the outline below direct you to appropriate sections of
+the tutorial.  Additional details can be obtained in <a class='sg' href="Publications.html">
+recent publications</A> related to
+the SeedGenes Project.  Portions of the tutorial have been adapted
+from: Meinke DW (1994) Seed Development in <I>Arabidopsis thaliana</I>.
+In: Meyerowitz EM, Somerville CR (eds), <I>Arabidopsis</I>. Cold
+    Spring Harbor Laboratory Press, pp. 253-295.
+  
+    
+    <H2>Outline of Tutorial</H2>
+    
+    <ul>
+      <li><a href="#Silique_Features">General Features of Siliques</a>
+	<ul>
+	  <li><a href="#Silique_Features">Silique Structure</a></li>
+	  <li><a href="#Silique_Development">Silique Development</a></li>
+	  <li><a href="#Silique_Length">Silique Length</a></li>
+	</ul></li>
+      <li><a href="#Seed_Features">Features of Seed Development</a>
+	<UL>
+	  <li><a href="#Seed_Size">Seed Size</a></li>
+	  <li><a href="#Seed_Development">Seed Development</a> </li>
+	</ul></li>
+      <li><a href="#Mutant_Maintenance">Maintenance of Embryo-Defective Mutants</a>
+	<ul>
+	  <li><a href="#Identifying_Heterozygotes">Identifying Heterozygotes</a></li>
+	  <li><a href="#Gametophytic_Lethals">Gametophytic Lethals</a>  </li>
+	  <li><a href="#Growth_Conditions">Growth Conditions</a></li>
+	  <li><a href="#Planting">Planting</a> </li>
+	  <li><a href="#Watering_Details">Watering Details</a> </li>
+	  <li><a href="#Seed_Stocks">Maintaining Seed Stocks</a> 
+	  <li><a href="#Harvesting_Single_Plants">Harvesting from Single Plants</a>
+	  <li><a href="#Harvesting_Multiple_Plants">Harvesting from Multiple Plants</a>
+	</ul></li>
+      
+      <li><a href="#Dissecting_Microscope">Examining Mutant Seeds with a Dissecting Microscope</a>
+	<ul>
+	  <li><a href="#Preparing_Siliques">Preparing Siliques for Observation</a>
+	    <ul>
+	      <li><a href="#Picking">Picking Siliques at the Optimal Stage</a></li>
+	      <li><a href="#Opening">Opening a Silique</a></li>
+	    </ul></li>
+	  <li><a href="#Characterizing_Seeds">Characterizing Mutant Seeds</a>
+	    <ul>
+	      <li><a href="#Unfertilized_Ovules">Distinguishing Mutant Seeds from Unfertilized Ovules</a>
+	      <li><a href="#Aborted_Seeds">Identifying Spontaneously Aborted Seeds</a>	
+	      <li><a href="#Mapping_Seeds">Mapping Seed Locations Within the Silique</a>
+	      <li><a href="#Recording_Colors">Recording the Colors and Lengths of Mutant Seeds</a>
+	    </ul></li>
+	  <li><a href="#Characterizing_Embryos">Characterizing Mutant Embryos</a>
+	      <ul>
+		<li><a href="#Removing_Embryos">Removing Embryos from Seeds</a>
+		<li><a href="#Terminal_Phenotypes">Classes of Terminal Phenotypes</a> 
+		<li><a href="#Recording_Mutants">Recording the Colors and Lengths of Mutant Embryos</a>
+	      </ul></li>
+	  </ul></li>
+	<li><a href="#Nomarski_Optics">Examining Cleared Seeds with Nomarski Optics</a> 
+	  <ul>	  
+	    <li><a href="#Nomarski_Advantages">Advantages of Nomarski Optics</a>
+	    <li><a href="#Hoyers">Preparation of Hoyer's Solution</a> 
+	    <li><a href="#Seed_Preparation">Methods of Seed Preparation</a> 
+	    <li><a href="#Visualization">Visualization and Image Storage</a> 
+	  </ul></li>
+	<li><a href="#SeedGenes_Analysis">Completing a Comprehensive SeedGenes Analysis</a>
+	  <ul>
+	    <li><a href="#Analysis_Overview">Overview of 2010 Analysis </a>
+	    <li><a href="#Forms">Forms and Lab Instructions</a>
+	  </ul></li>
+      </ul>
+      
+      
+      
+
+<h2><a id="Silique_Features">General Features of Siliques</a></h2>
+<p>The seeds of <I>Arabidopsis</I> are produced in fruits known as siliques.
+ Before fertilization, the silique is called the ovary and the seeds
+are called ovules.  Each silique contains two carpels, a central
+replum, and two long rows of seeds that are attached to the replum
+through a funiculus.  The funiculus guides the pollen tube during
+fertilization and provides a pipeline for nutrients from the maternal
+plant.  A typical silique produced under optimal conditions contains
+40-60 seeds.  Click here for a simplified drawing of an 
+
+<a href="javascript:showPic('Becky_Siliques.gif')">immature silique</a>. 
+The number of viable seeds at maturity is determined by the number of ovules
+produced, the percentage of ovules fertilized, and the frequency of
+seed abortion.  Vigorous plants often produce flowers with about 60
+ovules.  Most siliques contain at least a few unfertilized ovules
+resulting primarily from incomplete transfer of pollen to the stigma
+surface.  The frequency of spontaneous seed abortion is influenced by
+growth conditions but is often less than 1% of fertilized ovules. 
+Distinguishing between unfertilized ovules, mutant seeds, and
+spontaneously aborted seeds is an important feature of working with
+embryo-defective mutants.  
+<div class=cnt>
+<a href="javascript:showPic('Becky_Siliques.gif')">
+<img class='lgimg' src="images/tutorial/Becky_Siliques_part.gif"></a>
+</div>
+
+
+<a id="Silique_Development"></a><p><b>Silique Development:</b> 
+Reproductive development from fertilization to seed desiccation is
+completed in 2 weeks under standard growth conditions.  The
+developmental stage of an immature silique can be estimated by noting
+its position along the length of the stem.  Young siliques are found
+at the tip of each stem and older siliques at the base.  This allows
+one to construct a complete developmental progression of seed
+formation using siliques from a single stem.  The exact position of a
+silique at a desired stage of development is determined by the number
+of flowers produced per inflorescence per day, which in our lab is
+often two or three.      
+
+
+<a id="Silique_Length"></a><p><b>Silique Length:</b> 
+The length of individual siliques varies with both developmental age 
+and number of seeds.  Siliques begin to elongate from the center of a 
+flower within 24 hours after fertilization and reach a mature length 
+3-4 days later, at the globular to heart stages of embryo development.  
+Floral organs (petals, sepals, stamens) usually become detached during 
+this period.  A developmental progression of siliques at different stages of 
+seed development is displayed below.  Siliques with only unfertilized 
+ovules remain attached to the stem but fail to extend beyond 3.5 mm in length.  
+Siliques with 60 seeds reach a maximal length of about 15 mm.  Siliques with 
+fewer seeds are considerably shorter.  Unusually short siliques are therefore 
+an indication of poor seed set.  Siliques remain green until late in development, 
+when they turn yellow and then brown.  Mature siliques can be removed from a plant 
+without seed loss.  Physical removal of dried valves from a mature silique often 
+results in seed dispersal.
+<div class=cnt>
+<img class=lgimg src="images/tutorial/Silique_Progression.jpg">
+</div>
+
+<a id="Seed_Features"></a><H2>Features of Seed Development </H2>
+
+<a id="Seed_Size"></a><P><B>Seed Size:</B>
+ The most striking feature of <I>Arabidopsis</I> seeds is their small
+size.  Wild-type seeds are 0.5 mm long at maturity and weight about
+20-30 &mu;g when dried.  Although seed size can vary slightly with
+plant growth conditions and genetic backgrounds, seeds within a
+single silique are usually the same size.  Seed expansion occurs
+during the first several days after pollination.  Seeds at the heart
+stage of embryo development are therefore about the same size as
+mature seeds prior to desiccation.  
+
+<p>
+<a id="Seed_Development"><B>Seed Development:</b></a>  An overview of seed development in Arabidopsis is presented in the drawing below. 
+Nomarski images of cleared seeds are presented in <a class=sg href="WildTypeNomarskiImages.html" target="tutorialWin2">this SeedGenes page</a>.  Methods used to generate images of cleared seeds are described elsewhere in the tutorial.  Ovules at the time of fertilization are white, nearly transparent, and difficult to manipulate because of their small size.  Seeds enlarge during early stages of development but remain white until the late globular stage, when both the seed coat and the embryo begin to turn pale green.  Embryos beyond a torpedo stage of development are completely green.  Seeds at these later stages appear green because the embryo is visible through the translucent seed coat.  The developmental age of immature seeds prior to the globular stage can be judged by seed size, silique length, and silique location relative to the inflorescence.  The age of seeds between the globular and cotyledon stages can be determined more readily by seed color and embryo dissection.  Development of seeds within a given silique is generally synchronous, although minor differences can be observed at stages of development when rapid changes occur in embryo size and morphology 
+<div class=cnt>
+<img class=lgimg src="images/tutorial/Development_Drawing.gif">
+</div>
+
+<a id="Mutant_Maintenance"></a><h2>Maintenance of Embryo-Defective Mutants</h2>
+<div class=cnt>
+<a href="javascript:showPic('Siliques_and_Seeds.jpg')">
+<img class=lgimg src="images/tutorial/Siliques_and_Seeds_strip.jpg">
+</a>
+</div>
+
+<a id="Identifying_Heterozygotes"><B>Identifying Heterozygotes:</B></a>  The most common misconception about embryo-lethal mutants is that they cannot be studied or maintained.  This is simply incorrect.  Recessive mutants are readily maintained as heterozygotes that appear normal but produce 25% defective seeds following self-pollination.  Mutant seeds can be removed from immature siliques and subjected to a variety of descriptive and experimental studies.  
+Mutant seeds can be distinguished from unfertilized ovules and normal seeds before and after desiccation.
+  Click here for additional images of mutant and wild-type 
+<a href="javascript:showPic('Siliques_and_Seeds.jpg')">seeds</a> and 
+<a href="javascript:showPic('Color_Montage.jpg')">embryos</a> observed under a dissecting microscope.  If you are exploring a reverse genetic strategy with T-DNA or transposon insertion lines and you cannot identify a homozygote in a line of interest, one possibility is that all of the homozygotes died as embryos.  This can be confirmed by demonstrating that all plants heterozygous for the insert produce siliques with about 25% defective seeds.   A few mutants are known that produce 50% defective seeds following pollination of heterozygotes, even when the pollen comes from a wild-type plant.  In these cases, either the wild-type allele contributed by the male is silenced early in seed development, or a specific defect in megagametophyte development becomes limiting after fertilization.
+<div class=cnt>
+<img class=lgimg src="images/tutorial/Seeds_vs_Ovules.jpg">
+<br>
+Unfertilized ovules on left, mutant seeds in center, wild-type seeds on right.
+</div>
+<p>
+<a id="Gametophytic_Lethals"><B>Gametophytic Lethals:</b></a>  Another possible explanation for the failure to recover homozygotes through reverse genetics is that the mutation interferes with gametogenesis and no homozygous mutant embryos are even produced.  
+Mutations that are never passed through either male or female gametes will not be maintained and therefore cannot be studied.  Some mutations disrupt female gametophyte (megagametophyte) development but not pollen development, germination, or tube growth.  These mutations result in heterozygotes with 50% defective or unfertilized ovules that can be distinguished from aborted seeds by their size and color.  The same phenotype is observed when heterozygotes are crossed with wild-type pollen.  
+Other mutations interfere with male transmission but not with female transmission.  These can be identified either by examining the pollen under a microscope or demonstrating through crosses to wild-type plants that the mutant allele is not transmitted at the expected frequency.  Some gene knockouts reduce but do not eliminate transmission through both the male and female gametes.  Rare homozygotes that form typically fail to complete embryo development.  Plants heterozygous for these mutations often produce siliques with a low percentage of defective seeds.  The frequency of aborted seeds is particularly low at the base of the silique.
+
+<p>
+<a id="Growth_Conditions"><B>Growth Conditions:</b></a>  There are many different methods available for growing Arabidopsis.  We have long used a method that requires daily oversight and watering but results in vigorous plants with excellent seed production and a low frequency of spontaneous seed abortion.  
+Plants are grown in 3 inch round plastic pots placed in the type of rectangular plastic tubs (12x14 inches) used in many homes and laboratories for washing dishes.  A plastic grate (often used as a diffuser for fluorescent light fixtures) is placed in the bottom of the tub to facilitate drainage.  
+The soil contains a mixture of vermiculite (Strong-Lite coarse for plants grown from seeds; medium for transplants; Sun-Gro Horticulture, Pine Bluff, AR), potting soil (Scotts Redi-Earth, Plug and Seedling Mix, Scotts-Sierra Horticultural Products, Marysville, OH), and sterilized sand (12:3:1 v/v/v).  Plants are grown in a 
+large room  maintained at 24 &plusmn; 2&deg;C with circulated building air and placed under banks of 4-foot fluorescent lights kept on 16-h-light / 8-h-dark cycles.  
+Tubs are watered daily from below with a nutrient solution (0.35 g/liter) containing Excel 15-5-15 fertilizer (Scotts Miracle-Gro, Port Washington, NY).  This solution is stored in large plastic tubs (kitchen size trash cans), delivered to each tub through a rubber hose by plugging in a submersible pump stored in the nutrient container, and drained by siphoning after the electrical plug has been removed.  
+Pots are submerged in 0.5 to 1 inch of nutrient solution and soaked for several minutes before draining.  Watering 4 to 5 tubs in succession is most efficient.  We use growth chambers only for plants that have been chosen for crosses.  Plants started in a standard growth room are placed in a growth chamber after crosses have been performed and then watered as described above.  We find that this protocol increases the frequency of successful crosses. 
+<div class=cnt>
+<img class=lgimg height=250 src="images/tutorial/Pots_Tubs.jpg">
+<img class=lgimg height=250 src="images/tutorial/Growth_Room.jpg">
+</div>
+
+<p>
+<a id="Planting"><B>Planting:</b></a>  Seeds used for planting are placed on a moist piece of filter paper and transferred to the soil surface with closed forceps.  We typically plant seeds at specific locations (5 or 9 per pot) to facilitate subsequent tracking.  Tubs are covered with clear plastic wrap for the first 48 hours after planting, misted with water to maintain soil humidity, and not placed under lights for two days to avoid overheating.  The plastic is then gradually removed and plants are watered from below, first with RO water to minimize subsequent fungal and algal contamination, then with a 50% strength nutrient solution, and finally with 100% nutrient solution.      
+<div class=cnt>
+<img class=lgimg height=250 src="images/tutorial/WateringApparatus.jpg">
+<img class=lgimg height=250 src="images/tutorial/PersonWatering.jpg">
+</div>
+
+<p>
+<a id="Watering_Details"><B>Watering Details:</b></a>  The procedure followed in our laboratory is presented here.      	
+</p>
+<b><i>Nutrient Solution:</i></b>
+    <table class='tut'>
+	<tr><td class='tut'>Full-strength<td>0.50 teaspoon EXCEL per 2 gallons RO water
+	<tr><td class='tut'>Half-strength<td>0.25 teaspoon EXCEL per 2 gallons RO water
+	<tr><td class='tut'>RO water   <td>Reverse Osmosis (purified) water 
+    </table>
+  
+<br>  
+<b><i>Growth Schedule for Plants Germinated in Soil:</i></b>
+   <table class='tut'>
+	<tr><td class='tut'>Day 1<td>Plant seeds, mist with RO water, cover with clear plastic wrap
+	<tr><td class='tut'>Day 2<td>Mist underside of plastic 
+	<tr><td class='tut'>Day 3<td>Mist underside of plastic; Move tubs under growth lights
+	<tr><td class='tut'>Day 4<td>Mist underside of plastic 
+	<tr><td class='tut'>Day 5<td>Open plastic somewhat; water with RO water
+	<tr><td class='tut'>Day 6<td>Remove plastic if germination complete, water with RO water
+	<tr><td class='tut'>Day 7<td>Water with half-strength nutrient solution 
+	<tr><td class='tut'>Day 14<td>Water with full-strength nutrient solution 
+      </table>
+
+<br>
+<b><i>Growth Schedule for Transplants from Agar Plates:</i></b>
+
+      <table class='tut'>
+	  <tr><td class='tut'>Day&nbsp;1<td>Transplant, mist, cover with plastic, place under lights, half-strength solution 
+	  <tr><td class='tut'>Day&nbsp;2<td>Mist underside of plastic, water with half-strength solution
+	  <tr><td class='tut'>Day&nbsp;3<td>Open plastic half way, water with half-strength solution 
+	  <tr><td class='tut'>Day&nbsp;4<td>Remove plastic, water with full-strength solution 
+      </table>
+<p>
+<a id="Seed_Stocks"><B>Maintaining Seed Stocks:</b></a>  All seed stocks derived from the SeedGenes Project are available through the Arabidopsis Biological Resource Center (ABRC) at Ohio State University.  Stocks can be accessed through TAIR at www.arabidopsis.org.  Each vial sent to the stock center is labeled with the line number, allele symbol, seed source, and date collected.  Seeds are bulk harvested from self-pollinated heterozygous plants with siliques containing about 25% defective seeds.         
+<p>
+<a id="Harvesting_Single_Plants"><B>Harvesting from Single Plants:</b></a>  We often harvest individual siliques from specific plants in order to minimize seed contamination.  When this approach is used, mature siliques are removed by grasping the pedicel with fine forceps and severing the connection with the stem by sliding a second pair of forceps below the first.  Care must be taken to avoid shattering dry siliques and losing seeds.  Siliques chosen for dry harvest should be brown or yellow, not green.  Harvested siliques are placed in small plastic vials with screw tops.  We prefer 2 ml Sarstedt vials (Model 72.694) with about 25 siliques per vial.  Lids are kept loose for 1 week to complete the drying process.  Vials with lids secured are then placed in a refrigerator for long-term storage.  Seeds are ready for planting or plating after 1 week of cold treatment.  
+
+<div class=cnt>
+<img class=lgimg src="images/tutorial/SiliqueInVial.jpg">
+</div>
+
+<p>
+<a id="Harvesting_Multiple_Plants"><B>Harvesting from Multiple Plants:</b></a>  When detailed analysis has been completed for a mutant line and there are no conflicting data or atypical plants, a bulk harvest method of collecting seeds is often utilized. All wild-type plants are removed from pots when screening is completed and remaining plants are allowed to mature.  Seeds are then collected from all confirmed heterozygotes by gently compressing plants between fingers and thumb over a clean sheet of white paper. Silique debris is removed and seeds are transferred to a labeled vial. 
+
+<a id="Dissecting_Microscope"></a><h2>Examining Mutant Seeds with a Dissecting Microscope</h2>
+<p>
+<a id="Preparing_Siliques"><B>Preparing Siliques for Observation:</b></a>
+<p>
+<a id="Picking"><i>Picking Siliques at the Optimal Stage:</i></a>
+
+Siliques chosen  for screening must be sufficiently mature to allow normal and aborted seeds to be distinguished based on general morphology.  This is because all mutant seeds initially resemble normal seeds before development becomes abnormal.  The minimal age for screening will depend on the mutant involved.  Mutant seeds arrested early in development can be distinguished from normal seeds in younger siliques than mutant seeds arrested late in development.  The best approach is often to screen siliques in which the normal seeds are green and have reached an advanced cotyledon stage of development.  Mutant seeds in these siliques can then be distinguished either by their altered size and color or by the abnormal morphology of embryos removed for observation.  Siliques at more advanced stages are difficult to split without losing seeds.  Mutant seeds in these mature siliques are also more likely to be deflated and difficult to dissect.  Optimal Nomarski images of cleared seeds are obtained from siliques before mutant seeds have started to deflate and turn brown.  When searching for a silique at the optimum age for observation, we often start with green siliques near the base of the stem and work upwards toward the inflorescence. 
+<div class=cnt>
+<img class=lgimg src="images/tutorial/Silique_Harvest.jpg">
+</div>
+<p>
+<a id="Opening"><i>Opening a Silique:</i></a>  Splitting of siliques is most readily performed under a dissecting microscope at intermediate magnification (20X).  Most of the silique should be in view at once.  We use incidental light rather than transmitted light and place siliques on a glass microscope slide to facilitate manipulation and protect the base plate of the microscope.  Most lab members prefer the black side of a reversible plate.  When microscopes have been adjusted to be parfocal, siliques viewed at different magnifications remain in focus.  To make this adjustment, focus first at high magnification using the focus knob on the microscope and then focus again at low magnification using each eyepiece ring.  Siliques with a small amount of pedicel attached are most easily manipulated.  If you are right handed, grasp the pedicel with fine forceps in your left hand and use either another pair of closed fine forceps or a syringe in your right hand to split the silique longitudinally along lines of natural dehiscence.  Quality forceps (e.g. Dumont-Inox #4 or #5) are required.  Start at the base of the silique (near the pedicel) and move towards the tip (stigma surface).  Some lab members prefer to keep their left hand still and gradually move their right hand to complete the split.  Others prefer to keep their right hand still and move the silique with forceps in their left hand.  Siliques at cotyledon stages of seed development are more readily split than siliques at a preglobular stage because the lines of natural dehiscence are more clearly defined.  Another option for dealing with the youngest siliques is to grasp the pedicel and one carpel with two pairs of forceps and peel back the carpel, moving from the base of the silique to the tip.  This approach is often used when young seeds need to be removed from siliques without damage.  Once the two valves have been separated, use your forceps and/or syringe to push the valves further apart, revealing two long rows of seeds.  With practice this can be done without losing or destroying any of the seeds.  
+<p>
+<a id="Characterizing_Seeds"><b>Characterizing Mutant Seeds:</b></a>
+Mutant seeds at the time of analysis can differ in size, color, viability, extent of desiccation, embryo morphology, nature of endosperm development, and level of seed coat pigmentation.  Terminal phenotypes observed just before seed desiccation can differ significantly from initial phenotypes found early in development.  Some defects are quite obvious and readily characterized when 
+<a href="javascript:showPic('Color_Montage.jpg')">mutant embryos</a> are examined under a dissecting microscope.  Other types of abnormalities require visualization of cleared seeds with Nomarski optics or detailed examination of sectioned material.  All mutant seeds regardless of their underlying cellular defect will eventually turn brown as the silique matures.  Seeds arrested early in development generally turn brown before seeds arrested later in development.  The timing of this transition, however, is quite variable and dependent on environmental conditions.  Two mutant seeds containing arrested globular embryos with identical cellular defects may therefore appear different if one has already begun to desiccate and turn brown while the other is still inflated and white.  Seed size and embryo morphology prior to desiccation are therefore more reliable indicators of differences in underlying cellular defects than variations in seed coat pigmentation.      
+<div class=cnt>
+<a href="javascript:showPic('Color_Montage.jpg')">
+<img class=lgimg src="images/tutorial/Color_Montage_strip.jpg"></a>
+</div>
+<p>
+<a id="Unfertilized_Ovules"><i>Distinguishing Mutant Seeds from Unfertilized Ovules:</i></a>  
+Seeds that become arrested after fertilization can be distinguished from unfertilized ovules based on size and/or seed coat pigmentation.  Unfertilized ovules resemble small white fists and do not turn brown upon desiccation.  In contrast, seed coats of even the smallest aborted seeds will typically turn brown as the silique matures.  Small brown structures are therefore aborted seeds and not unfertilized ovules.  
+These differences are pictured below.  The size of aborted seeds depends primarily on the extent of endosperm development, which often correlates with the extent of embryo development.  Most aborted seeds containing arrested embryos composed of several cells are much larger than unfertilized ovules.           
+<div class=cnt>
+<img class=lgimg src="images/tutorial/Seeds_vs_Ovules.jpg">
+<br>
+Unfertilized ovules on left, mutant seeds in center, wild-type seeds on right.
+</div>
+<p>
+<a id="Aborted_Seeds"><i>Identifying Spontaneously Aborted Seeds:</i></a>  
+When analyzing embryo-defective mutants, care must be taken to distinguish between mutant seeds and spontaneous abortants resulting from physiological or environmental stress.  These spontaneous abortants may be common in siliques produced by plants grown under sub-optimal conditions or damaged in response to pathogens or physical treatment.  Plants grown under ideal conditions should contain less than 1% spontaneously aborted seeds.  Siliques that contain clusters of defective seeds, particularly at the tip of the silique, or a significant number of seeds with delayed but phenotypically normal embryos should be viewed with caution.  Most spontaneous abortants are likely to arrest before the globular stage of embryo development or contain green embryos at a torpedo or linear stage of development surrounded by a seed coat that has prematurely turned brown.  Some heterozygotes produce defective embryos with distinctive phenotypes that are readily distinguished from spontaneous abortants.  Abnormal seeds that do not match the expected mutant phenotype can then be ignored. In other cases, a few defective seeds may need to be classified as unresolved because they cannot be clearly identified as either mutant seeds or spontaneous abortants. The best solution is to work exclusively with plants that exhibit a low frequency of spontaneous seed abortion. Wild-type plants growing in the same pot can be used to estimate abortion rates in the absence of an embryonic mutation. 
+<p>
+<a id="Mapping_Seeds"><i>Mapping Seed Locations Within the Silique:</i></a>
+We utilize a silique grid drawn on notebook paper to map the locations of mutant seeds within a silique.
+<div class=cnt><img src="images/tutorial/Silique_Grid.gif"></div>
+This provides a permanent record of individual siliques that can be used to calculate segregation ratios and determine whether the distribution of mutant seeds along the length of the silique is random, as expected when the mutant allele has no effect on gametogenesis, or non-random due to certation, which refers to a negative effect of the mutant allele on pollen germination or tube growth.  Each square on the gird represents a seed within a silique. A dot is drawn in each square that corresponds to a mutant seed.  Each dot can be numbered if additional details on seed phenotypes need to be recorded.  The base of the silique is defined as the region closest to the pedicel and the main stem.  This basal end is shown at the left of each silique map.  The tip corresponds to the region closest to the stigma surface.  Seeds are counted starting at the base of the silique.  The tip of each row (valve) of seeds is marked with a vertical bracket to the right of the last seed.  A vertical line is then drawn to mark the halfway point for each valve. If a valve contains an odd number of seeds, two vertical lines are drawn around the central seed location.  When a mutant seed is positioned between these two lines, it should be included it in the top half for one valve, then in the bottom half for the next valve, alternating through subsequent siliques.  Mutant alleles that exhibit certation will result in siliques in which the frequency of mutant seeds at the base of the silique is unusually low because mutant pollen tubes are less competitive than wild-type tubes at fertilizing ovules distant from the stigma surface.  The percentage of total mutant seeds found in the top half of the silique will then be significantly greater than 50%.  Unfertilized ovules are generally disregarded with this method of silique mapping.  Mutants with an unusually high frequency of unfertilized ovules in addition to defective seeds need to be examined further in order to document the types of defects found.   
+<p>
+<a id="Recording_Colors"><i>Recording the Colors and Lengths of Mutant Seeds:</i></a>   
+The color of a mutant seed before desiccation is determined primarily by the mutant embryo and endosperm, which are visible through the translucent seed coat, and to some extent by the seed coat itself, which is composed of cells heterozygous for the mutation but nevertheless varies somewhat in appearance from one mutant to another.  For the SeedGenes Project, we have utilized the following numerical system for recording colors of mutant seeds and embryos: (1) white; (2) pale yellow-green; (3) pale green; (4) green as in wild type; and (5) fusca 
+with red/purple regions containing anthocyanin.  Examples of the fusca phenotype
+are shown here.  Seed length is measured in microns by placing a whole seed on a stage micrometer and noting the maximal length rounded to the nearest 50µm. 
+<div class=cnt>
+<a href="javascript:showPic('Fusca_Images.jpg')">
+<img class=lgimg src="images/tutorial/Fusca_Images_strip.jpg">
+</a>
+<br>Fusca phenotype examples.
+</div>
+<p>
+<a id="Characterizing_Embryos"><b>Characterizing Mutant Embryos:</b></a>
+<p>
+<a id="Removing_Embryos"><i>Removing Embryos from Seeds: </i></a> 
+Mastering this technique is critical to the analysis of embryo-defective mutants and requires some practice and patience.  We encourage new members of the laboratory to practice initially with wild-type seeds and then proceed to working with mutants.  Wild-type embryos at the linear to cotyledon stages of development are most readily recovered because they are large in comparison to early stages and the seed coat has not yet become desiccated and sticky.  Embryos can be removed by grasping one end of the seed with forceps and puncturing the other end with a syringe or second pair of forceps.  Applying gentle pressure with the forceps will cause the embryo to be extruded from the seed.  The embryo is more dense and compact than the surrounding endosperm and seed coat tissue and will therefore usually remain intact.  Dissections are most readily performed at high magnification and with forearms resting comfortably on the lab bench next to the microscope.  Forceps held close to their tips are more readily controlled than forceps held at a distance.  Wild-type embryos back to the heart stage of development can with practice be recovered without much difficulty.  Wild-type embryos at the globular stage are much more difficult to identify because of their small size.  Fortunately, mutant embryos often become larger than wild-type embryos with a similar shape.  For example, arrested globular embryos in siliques at advanced cotyledon stages are often larger than wild-type embryos at the heart stage and can with practice be easily found, removed, and measured.  One approach that we have developed to facilitate the detailed analysis of isolated embryos is to perform dissections on a glass cover slip placed on the surface of an agar plate.  Embryos can then be placed on the agar surface immediately after their removal from the seed and kept there for extended observations without the concern of premature desiccation.  However, routine dissections performed as part of the SeedGenes Project are typically done on a stage micrometer so that isolated embryos can be measured quickly before they become desiccated.    
+
+<div class=cnt>
+<a href="javascript:showPic('BW_Montage.jpg')"><img class=lgimg src="images/tutorial/BW_Montage_strip.jpg"></a>
+
+<a href="javascript:showPic('Color_Montage.jpg')"><img class=lgimg src="images/tutorial/Color_Montage_strip2.jpg"></a>
+</div>
+<p>
+<a id="Terminal_Phenotypes"><i>Classes of Terminal Phenotypes:</i></a>  Mutant embryos vary widely in terminal phenotype.  Examples of embryos removed from immature seeds and observed under a dissecting microscope are shown here in 
+<a href="javascript:showPic('BW_Montage.jpg')">black and white</a> and in 
+<a href="javascript:showPic('Color_Montage.jpg')">color
+</a>.  We have devised a classification system for terminal phenotypes based on a series of standardized and somewhat idealized morphological classes in order to facilitate the large-scale analysis of embryos for the SeedGenes Project.  
+We recognize that some embryos are difficult to place into a single class based on observations with a dissecting microscope and that different classes may overlap to some extent.  
+We have nevertheless found this system to be quite useful in keeping track of large numbers of mutant phenotypes.  The classes are defined below and 
+<a class='sg' href="AllEmbryoPhenotypes.html" target="tutorialWin2">illustrated here</a>.  
+</p>
+<br>
+<b><i>Globular (G): No Distinct Cotyledons</i></b>
+    <table class='tut'>
+	<tr><td class='tut'>A  <td colspan='2'><u>Globular Shape</u>
+	<tr><td><td class='tut'>A1	<td>Standard shape				
+	<tr><td><td class='tut'>A2	<td>Tear shape					
+
+	<tr><td class='tut'>B	<td colspan='2'><u>Globular with Suspensor</u>
+	<tr><td><td class='tut'>B1	<td>Thin, straight suspensor
+	<tr><td><td class='tut'>B2	<td>Long, curled suspensor
+
+	<tr><td class='tut'>C	<td colspan='2'><u>Globular with Giant Suspensor</u>
+
+	<tr><td class='tut'>D	<td colspan='2'><u>Globular with Irregular Surfaces</u>
+    </table>
+
+<br>
+<b><i>Transitional (T):  Elongation / Cotyledon Initiation</i></b>
+    <table class='tut'>	      
+
+<tr><td class='tut'>E	<td colspan='2'><u>Early Transition to Heart Shape</u>
+
+	<tr><td><td class='tut'>E1	<td>Triangular with no primordia			
+	<tr><td><td class='tut'>E2	<td>Short cotyledon primordia			
+	<tr><td><td class='tut'>E3	<td>Multiple bumps/primordia
+	<tr><td><td class='tut'>E4	<td>Wide suspensor
+
+<tr><td class='tut'>F	<td colspan='2'><u>Elongated Shape</u>
+
+	<tr><td><td class='tut'>F1	<td>Small elongate/blimp (150-200 µm)
+	<tr><td><td class='tut'>F2	<td>Large elongate/blimp (>200-300 µm)
+
+<tr><td class='tut'>G	<td colspan='2'><u>Small Cotyledons and Hypocotyl  (&lt; 175 µm in length)</u>
+
+	<tr><td><td class='tut'>G1	<td>Small heart
+	<tr><td><td class='tut'>G2	<td>Small heart with early development of hypocotyls
+	<tr><td><td class='tut'>G3	<td>Small thin cotyledons with early development of hypocotyls
+	<tr><td><td class='tut'>G4	<td>Small thin open cotyledons - no hypocotyls
+</table>
+
+<br>
+<b><i>Cotyledon (C): Increased Size and Differentiation</i></b>
+    <table class='tut' >	      
+
+<tr><td class='tut'>H	<td colspan='2'><u>Cotyledons and Hypocotyl  (&gt; 175 µm in length)</u>
+
+	<tr><td><td class='tut'>H1	<td>Heart shape
+	<tr><td><td class='tut'>H2 	<td>Thin cotyledons and hypocotyls
+	<tr><td><td class='tut'>H3	<td>Wide hypocotyls
+	<tr><td><td class='tut'>H4	<td>Bent hypocotyls
+	<tr><td><td class='tut'>H5	<td>Irregular surface
+
+<tr><td class='tut'>I	<td colspan='2'><u>Reduced Cotyledons</u>
+
+	<tr><td><td class='tut'>I1	<td>Thin hypocotyl - very small cotyledons
+	<tr><td><td class='tut'>I2	<td>Broad hypocotyl - very small cotyledons
+	<tr><td><td class='tut'>I3	<td>Standard hypocotyl - very small cotyledons 
+	<tr><td><td class='tut'>I4	<td>No cotyledons distinguishable (> 300 µm)
+
+<tr><td class='tut'>J <td colspan='2'><u>Reduced Hypocotyl</u>
+
+	<tr><td><td class='tut'>J1	<td>Open thin cotyledons - no hypocotyl
+	<tr><td><td class='tut'>J2	<td>Closed cotyledons - no hypocotyl
+	<tr><td><td class='tut'>J3	<td>Mature cotyledons - short hypocotyl
+	<tr><td><td class='tut'>J4	<td>Single cotyledon - short bent hypocotyl
+	
+<tr><td class='tut'>K	<td colspan='2'><u>Large Heart with Multiple Apical Primordia</u>
+
+<tr><td class='tut'>L	<td colspan='2'><u>Early Curled Cotyledons</u>
+
+	<tr><td><td class='tut'>L1	<td>Short cotyledons
+	<tr><td><td class='tut'>L2	<td>Irregular short cotyledons
+	<tr><td><td class='tut'>L3	<td>Bent irregular short cotyledons
+	<tr><td><td class='tut'>L4	<td>Standard curled or mature cotyledons - bent or twisted hypocotyl
+
+<tr><td class='tut'>M	<td colspan='2'><u>Prominent, Fused or Folded Cotyledons</u>
+
+	<tr><td><td class='tut'>M1	<td>Cup shaped cotyledons
+	<tr><td><td class='tut'>M2	<td>Spherical - short hypocotyl
+	<tr><td><td class='tut'>M3	<td>Partially fused - irregular surface
+
+<tr><td class='tut'>N	<td colspan='2'><u>Advanced Cotyledons; Signs of Vivipary</u>
+
+	<tr><td><td class='tut'>N1	<td>Linear stage - clear tipped hypocotyl
+	<tr><td><td class='tut'>N2	<td>Curled stage - clear tipped hypocotyl
+
+<tr><td class='tut'>O	<td colspan='2'><u>Normal Mature Cotyledon Shape</u>
+	
+<tr><td class='tut'>T	<td colspan='2'><u>Twin Embryos</u>
+
+	<tr><td><td class='tut'>T1	<td>Two embryos formed - cotyledon stage of development in at least one of the embryos
+</table>
+
+<div class=cnt>
+<img class=lgimg src="images/tutorial/TerminalPhenotypes.gif">
+</div>
+<p>
+<a id="Recording_Mutants"><i>Recording the Colors and Lengths of Mutant Embryos:</i></a>  The colors of mutant embryos are noted using the same numerical system described above for seeds.  Because embryos often turn darker green as they dry out, observations are made as soon as possible after removal from the seed coat.  Dissections are performed on the surface of a stage micrometer to facilitate rapid measurement and classification.  Small embryos are most readily seen on a black background and measured on a white background.  We measure the axis of greatest distance without unfolding the cotyledons.  Enlarged suspensors are not included in the measurement.  Embryo size is rounded to the nearest 25µm.  
+
+<h2><a id="Nomarski_Optics">Examining Cleared Seeds with Nomarski Optics</a></h2>
+
+<a id="Nomarski_Advantages"><b>Advantages of Nomarski Optics:</b></a>
+
+Nomarski optics (Differential Interference Contrast light microscopy) is a rapid and simple method used to look inside cleared seeds and reconstruct their three-dimensional structure.  The result is a wealth of information on the internal organization of developing seeds and embryos. This technique requires specialized optical attachments to a standard compound microscope. Examples of Nomarski images of cleared 
+<a class=sg href="WildTypeNomarskiImages.html" target="tutorialWin2">wild-type seeds</a> are shown here.  One of the advantages of Nomarski optics is that it allows one to focus on several different optical planes within a seed. It is therefore possible to focus first on integument layers, then the endosperm tissue, then different layers of cells in the embryo proper, and finally the integuments on the lower surface of the seed. Nomarksi images are especially valuable when attempting to characterize early defects in the development of mutant seeds.  Embryos too small to be visible under a dissecting microscope can also be examined and characterized.  
+<a class='sg' href='NomarskiImages?alleleSymbol=emb+1345-1' target='tutorialWin2'>A sample link into SeedGenes</a> shows images for a specific mutant.  Nomarski optics is most appropriate for analyzing seeds before the linear stage of development.  Increased pigmentation in the seed coat and larger numbers of cells in cotyledon embryos makes observations at later stages more difficult.  Immature seeds need to be cleared and made transparent before being subjected to Nomarski optics.  The clearing agent of choice in most laboratories is Hoyer's solution.  Note that utilization of chloral hydrate in the United States requires special certification because it is classified as a controlled substance.  
+<div class=cnt>  
+<a class=sg href="WildTypeNomarskiImages.html" target="tutorialWin2"><img class=lgimg src="images/tutorial/nomarski_wildtype_strip.jpg"></a>
+</div>
+<p>
+<a id="Hoyers"><b>Preparation of Hoyer's Solution:</b></a>
+</p>
+  
+      <b><i>Components of Hoyer's solution:</i></b>
+      <table class='tut'>
+	  <tr><td  class='tut'>15 ml 	</td><td>Distilled Water</td></tr>
+	  <tr><td class='tut'>3.75 g 	</td><td>Gum Arabic</td></tr>
+	  <tr><td class='tut'>2.5 ml	</td><td>Glycerine</td></tr>
+	  <tr><td class='tut'>50 g      </td><td>Chloral Hydrate</td></tr>
+      </table>
+
+      <br><b><i>Protocol for Preparation of Hoyer's Solution:</i></b>
+	<ol>
+	  <li>Clean a 100 ml beaker and magnetic stir bar
+	  <li>Add 15 ml distilled water to the 100 ml beaker 
+	  <li>Heat on low while stirring until the glass feels warm to the touch
+	  <li>Add 3.75 g gum Arabic slowly in small amounts with constant stirring
+	  <li>Minimize heat to avoid caramelizing the gum Arabic
+	  <li>Add 2.5 ml glycerine (viscous liquid) with a 5 ml syringe  
+	  <li>Add 50 g chloral hydrate (10 g at a time) 
+	  <li>Allow all components to fully dissolve
+      </ol>
+
+<p>Hoyer's solution prepared according to these instructions is effective on seeds from the globular to heart stages with visualization possible after a matter of minutes. Seeds containing embryos beyond the torpedo stage require more time for clearing but will be ready to visualize within an hour or two.  More mature seeds with fully developed and pigmented cotyledons require extra time and the image quality is reduced.  We often dilute this standard (full-strength) stock with 2 parts distilled water to 1 part stock solution to generate a working solution that produces better images for young seeds.  
+<p>
+<a id="Seed_Preparation"><b>Methods of Seed Preparation: </b> </a>
+
+Materials needed for seed clearing are fine forceps, needle, glass slides, cover slips, and Hoyer's solution.  Siliques containing seeds at the desired stage should be examined first under a dissecting microscope.  Mutant seeds are then removed one or two at a time and placed on the surface of a drop (1-2 cm diameter) of Hoyer's solution on a glass slide.  Seeds must not be punctured or submerged in the Hoyer's solution.  Place 15 to 20 seeds per drop for best results.  With mutants that arrest early in development, focus on siliques with wild-type embryos at the globular to heart stage and clear all of the seeds from one silique in the same drop of Hoyer's solution.  This simplifies and optimizes the comparison of mutant and wild-type embryos.  Avoid seeds with a brown seed coat because they do not clear well.  Gently place a cover slip on top of the drop, being careful to avoid forming air bubbles beneath the cover slip.  The slide should then labeled and set aside for the desired length of time.
+<p>
+<a id="Visualization"><b>Visualization and Image Storage:</b></a>
+
+Cleared seeds on the glass slide are visualized using a compound light microscope equipped with Nomarski optics.  Microscope adjustments and protocols vary depending on the manufacturer and model.  For the SeedGenes Project, we have used a Nikon E600 compound microscope and captured images with a Nikon DXM1200 digital imaging system equipped with Nikon ACT-1 software.  Most images were taken with a 20X objective.    
+
+<div class=cnt>
+<img class=lgimg src="images/tutorial/ScopeAndComputer.jpg">
+</div>
+ 
+Before capturing images with the ACT-1 software, the feature of interest (embryo, suspensor, endosperm) should be centered in the field of view.  The best images have both the embryo and suspensor in focus.  Enlarged endosperm nuclei are preserved when found.  Six images chosen from a collection of about 10 per mutant are assembled into a montage for SeedGenes.   Settings for ACT-1 image capture will depend on the microscope.  Images found in SeedGenes are edited with Adobe Photoshop. Individual images captured with ACT-1 software are 3.5 MB on average.  These are reduced in size before they are edited for use in the final montage. Details of image sizes are:  
+<dl>
+	<dt>Original Image Captured with ACT-1: 
+	<dd>Pixel dimensions: W 3840, H 3072
+	  <br>Document size in cm: W 135.47, H 108.37
+	  <br>Resolution in pixels/cm: 28.346
+	  <br>
+	<dt>Resized Image Using Photoshop:
+	<dd>Pixel dimensions: W 1181, H 945
+	  <br>Document size in cm: W 10, H 8
+	  <br>Resolution in pixels/cm: 118.11
+	  <br>Constrain proportions and resample image
+	  <br>
+	<dt>Montage of Six Images:
+	<dd>Pixel dimensions: W 1535, H 1506
+	  <br>Document size in cm: W 13, H 12.75
+	  <br>Resolution in pixels/cm: 118.11
+	  <br>
+	<dt>Resized Final Montage for SeedGenes:
+	<dd>Pixel dimensions: W 600, H 589
+	  <br>Document size in cm: W 5.08, H 4.99
+	  <br>Resolution in pixels/cm: 118.11
+	  <br>Constrain proportions and resample image
+      </dl>
+
+<a id="SeedGenes_Analysis"></a><h2>Completing a Comprehensive SeedGenes Analysis</h2>
+
+<a id="Analysis_Overview"><b>Overview of 2010 Analysis:</b></a>  Mutants chosen for detailed genetic and phenotypic characterization in our laboratory are subjected to a standardized protocol that we term "2010 Analysis".  Results of these studies are then presented in the Profile section of SeedGenes.  Twenty-five immature siliques from selfed heterozygotes are chosen for detailed counts and position mapping of mutant and normal seeds.  Results are used to calculate segregation rations (percent mutant seeds) and determine whether mutant seeds are randomly distributed along the length of the silique.  One hundred mutant seeds from these siliques are then selected for measurements, color determinations, and embryo classifications.  Results are used to calculate average seed and embryo lengths and colors in addition to providing standardized information on the diversity of mutant phenotypes observed.  Nomarksi images are prepared from cleared mutant seeds arrested before the cotyledon stage of embryo development and assembled into a montage for presentation at SeedGenes.  
+<p>
+<a id="Forms"><b>Forms and Lab Instructions:</b></a>  The following links can be used to obtain PDF images of standardized forms used to complete a SeedGenes analysis.  Please contact David Meinke, SeedGenes Project PI (meinke@okstate.edu) if you have specific questions about these forms or about the analysis of embryo-defective mutants.  We welcome contributions of detailed genetic and phenotypic data on seed mutants isolated and characterized elsewhere and we are always receptive to collaborations on the analysis of specific mutants identified in other laboratories.  
+<p>
+<a href="2010_Analysis_Forms.pdf">Standardized 2010 Analysis Forms (PDF)</a>
+<p>
+<a href="2010_Forms_Instructions.pdf">Instructions for Completing Forms (PDF)</a>
+</div>
+
+<div class='footer'>
+Address comments to David Meinke, Project PI <a href="mailto:meinke@okstate.edu" class='footer_link'>(meinke@okstate.edu)</a>
+</div>
+
+</BODY>
+</HTML>

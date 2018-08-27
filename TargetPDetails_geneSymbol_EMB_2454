@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<TITLE>
+TargetP Details: EMB 2454
+</TITLE>
+
+<link rel='STYLESHEET' href='seedgenes.css' type='text/css'/>
+
+</HEAD><BODY>
+
+<div class=header><div class=logoPos1>&nbsp;</div><div class=logoPos2><a href='http://www.okstate.edu' ><img alt='OSU' SRC='images/osu.gif' border=0></a>&nbsp;<a href='http://www.syngenta.com'><img alt='Syngenta' SRC='images/syngenta.gif' border=0></a>&nbsp;<a href='http://www.vbi.vt.edu'><img alt='vbi' SRC='images/vbi.gif' border=0></a></div><a href='index.html'><img SRC='images/seedgenes.jpg' width='396' height='76' border=0></a></div>
+<div class=menu1><div class=menu2>
+<div class=date>Aug 17, 2018 4:42 PM</div>
+<a href='index.html'>Home</a> | 
+<a href='AccessPage.html'>Access Page</a> | <a href='SeedGenesQuery.html'>Database Query</a>
+</div></div>
+<div class=main>
+<div class=section>
+<div class=title>TargetP Details</div>
+<table cellspacing=0>
+<tr style="font-weight: bold;"><td>Chloroplast<td>Mitochondrion<td>Secretory Pathway<td>Not Targeted</tr>
+<tr align='center'><td>0.69
+*
+<td>0.05
+<td>0.04
+<td>0.34
+</tr>
+</table>
+<br>Reliability = 4.<br>Values range from 1 to 5, with low values reflecting a high level of certainty.<br>
+</div>
+</div>
+</body></html>

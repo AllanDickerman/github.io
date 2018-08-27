@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>
+Mutant: emb 1703-2
+</title>
+<link rel="STYLESHEET" href="seedgenes.css" type="text/css" />
+</head><body>
+<div class="header"><div class="logoPos1">&nbsp;</div><div class="logoPos2"><a href="http://www.okstate.edu"><img alt="OSU" src="images/osu.gif" border="0" /></a>&nbsp;<a href="http://www.syngenta.com"><img alt="Syngenta" src="images/syngenta.gif" border="0" /></a>&nbsp;<a href="http://www.vbi.vt.edu"><img alt="vbi" src="images/vbi.gif" border="0" /></a></div><a href="index.html"><img src="images/seedgenes.jpg" width="396" height="76" border="0" /></a></div>
+<div class="menu1"><div class="menu2">
+<div class="date">Aug 17, 2018 4:32 PM</div>
+<a href="index.html">Home</a> | 
+<a href="AccessPage.html">Access Page</a> | <a href="SeedGenesQuery.html">Database Query</a>
+</div></div>
+<div class="main">
+<h1>Mutant: emb 1703-2</h1>
+<table class="nopad" cellspacing="0">
+<tr><td class="nopad" valign="top" width="49%">
+<div class="section">
+<div class="title">Embryo Phenotype Classes</div>
+<table cellspacing="0">
+<col width="5%" /><col width="83%" />
+<tr><td><b>X</b></td><td><span class="label">No Embryo Found</span></td><td>0</td></tr>
+<tr><td><b>A</b></td><td><span class="label">Globular Shape</span></td><td>38</td></tr>
+<tr><td><b>B</b></td><td><span class="label">Globular with Suspensor</span></td><td>0</td></tr>
+<tr><td><b>C</b></td><td><span class="label">Globular with Giant Suspensor</span></td><td>0</td></tr>
+<tr><td><b>D</b></td><td><span class="label">Globular with Irregular Surface</span></td><td>0</td></tr>
+<tr><td><b>E</b></td><td><span class="label">Early Transition to Heart Shape</span></td><td>21</td></tr>
+<tr><td><b>F</b></td><td><span class="label">Elongate Shape</span></td><td>1</td></tr>
+<tr><td><b>G</b></td><td><span class="label">Small Heart Shape</span></td><td>30</td></tr>
+<tr><td><b>H</b></td><td><span class="label">Cotyledon and Hypocotyl Formation</span></td><td>0</td></tr>
+<tr><td><b>I</b></td><td><span class="label">Linear with Reduced Cotyledons</span></td><td>1</td></tr>
+<tr><td><b>J</b></td><td><span class="label">Large Heart with Reduced Hypocotyl</span></td><td>9</td></tr>
+<tr><td><b>K</b></td><td><span class="label">Large Heart with Multiple Apical Primordia</span></td><td>0</td></tr>
+<tr><td><b>L</b></td><td><span class="label">Early Curled Cotyledon</span></td><td>0</td></tr>
+<tr><td><b>M</b></td><td><span class="label">Prominent, Fused, or Folded Cotyledons</span></td><td>0</td></tr>
+<tr><td><b>N</b></td><td><span class="label">Advanced Cotyledons; Signs of Vivipary</span></td><td>0</td></tr>
+<tr><td><b>O</b></td><td><span class="label">Normal Mature Cotyledon Shape</span></td><td>0</td></tr>
+<tr><td><b>T</b></td><td><span class="label">Twin Embryo</span></td><td>0</td></tr>
+</table>
+</div></td>
+<td class="nopad" width="20" bgcolor="#2E8E57">&nbsp;</td>
+<td class="nopad" valign="top" width="49%">
+</td></tr></table></div>
+<div class="section">
+<div class="title">Embryo Phenotype Subclasses</div>
+<br />
+<table class="noborder">
+<col width="130" /><col width="130" /><col width="130" /><col width="130" />
+<tr>
+<td class="embryoCommon"><img class="embryoCommon" src="images/embryoImages/A1.png" /><br />A1&nbsp;(25)</td>
+<td class="embryoCommon"><img class="embryoCommon" src="images/embryoImages/A2.png" /><br />A2&nbsp;(13)</td>
+<td class="embryoCommon"><img class="embryoCommon" src="images/embryoImages/E1.png" /><br />E1&nbsp;(14)</td>
+<td class="embryoCommon"><img class="embryoCommon" src="images/embryoImages/E2.png" /><br />E2&nbsp;(7)</td>
+</tr><tr>
+<td class="embryoRare"><img class="embryoRare" src="images/embryoImages/F1.png" /><br />F1&nbsp;(1)</td>
+<td class="embryoCommon"><img class="embryoCommon" src="images/embryoImages/G4.png" /><br />G4&nbsp;(30)</td>
+<td class="embryoRare"><img class="embryoRare" src="images/embryoImages/I3.png" /><br />I3&nbsp;(1)</td>
+<td class="embryoCommon"><img class="embryoCommon" src="images/embryoImages/J2.png" /><br />J2&nbsp;(9)</td>
+</tr><tr>
+</tr></table>
+<ul>
+<li><a class="sg" title="Link Into SeedGenes" href="NomarskiImages_alleleSymbol_emb_1703-2">Nomarski Images of Embryos</a>
+</li><li><a class="sg" title="Link Into SeedGenes" href="AllEmbryoPhenotypes.html">View All Phenotype Subclasses</a>
+</li><li><a class="glossary" title="Glossary Lookup" href="Glossary.html#Embryo_Classification">Embryo Phenotype Classification System</a>
+</li></ul>
+
+</div>
+
+</body></html>

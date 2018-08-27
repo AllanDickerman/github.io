@@ -1,0 +1,279 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML><HEAD>
+<TITLE>SeedGenes Query</TITLE>
+<link rel="STYLESHEET" href="seedgenes.css" type="text/css"></HEAD><BODY>
+
+<div class=header><div class=logoPos1>&nbsp;</div><div class=logoPos2>
+<a href='http://www.okstate.edu' target='new_window'><img alt='OSU' SRC='images/osu.gif' border=0></a>&nbsp;
+<a href='http://www.syngenta.com' target='new_window'><img alt='Syngenta' SRC='images/syngenta.gif' border=0></a>&nbsp;
+<a href='http://www.vbi.vt.edu' target='new_window'><img alt='VBI' SRC='images/vbi.gif' border=0></a>
+</div><a href='index.html'><img SRC='images/seedgenes.jpg' alt='SeedGenes' width='396' height='76' border=0></a></div>
+<div class=menu1><div class=menu2>
+&nbsp;
+<a href='index.html'>Home</a> | <a href='AccessPage.html'>Access Page</a>
+</div></div>
+<div class=main>
+<H1>SeedGenes Query</H1>
+<font size=6><b>W</b></font>elcome to the <b>Query Page</b> for the SeedGenes Project.  Search here for information on specific genes and associated mutant alleles.  Click on <span class='glossary'>highlighted</span> terms for definitions and additional information.
+<p>
+<table class=nopad cellspacing=0>
+<tr valign=top><td class=nopad width=48%>
+<div class=title>Gene Query</div>
+<div class=main>
+<br>
+
+<FORM>
+<INPUT TYPE="button" VALUE='Browse Genes' onClick="parent.location='GeneList'"> Go to list of all genes.
+</FORM> 
+<p>
+<hr>
+
+<span class='label'>Obtain SeedGenes Profile</span>
+<br>
+Enter one or more standard gene symbols or locus identifiers (e.g. TTN5 or  At2g18390):
+<FORM action="GeneList">
+<textarea rows="2" cols="30" name="geneIdentifier"></textarea>
+<input type="submit" name="submit" value="Submit">
+</FORM>
+
+<hr>
+
+<span class='label'>Query Gene Information</span>
+<p>
+<FORM action="GeneList">
+<table class=noborder>
+
+<col width=210>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Gene_Class_Query'>Gene Class</a></td>
+<td class=noborder align=left valign=top><select  name="geneClass" size=1>
+<option value=""> ------------------------</option>
+<option value=ED> Embryo Defective </option>
+<option value=SP> Seed Pigment </option>
+<option value=50M> 50% Defective Seeds </option>
+</select></td></tr>
+
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Chromosome'>Chromosome</a></td>
+<td class=noborder align=left valign=top><select  name="chromosome" size=1>
+<option value=""> ------------------------</option>
+<option value=1> Chromosome 1 </option>
+<option value=2> Chromosome 2 </option>
+<option value=3> Chromosome 3 </option>
+<option value=4> Chromosome 4 </option>
+
+<option value=5> Chromosome 5 </option>
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Gene_Identity_Confidence'>Gene Identity Confidence</a></td>
+<td class=noborder align=left valign=top><select  name="identityConfidence" size=1>
+<option value="">------------------------</option>
+<option value=C> Confirmed </option>
+<option value=NC> Not Confirmed </option>
+<!--
+<option value=UNC> Uncertain </option>
+<option value=QS> Questionable </option>
+-->
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Second_Allele_Available'>Second Allele Available</a></td>
+<td class=noborder align=left valign=top><select  name="secondAllele" size=1>
+<option value="">------------------------</option>
+<option value=2> Yes </option>
+<option value=1> No  </option>
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#FLcDNA_Sequenced'>FLcDNA Sequenced</a></td>
+
+<td class=noborder align=left valign=top><select  name="FLcDNA" size=1>
+<option value="">------------------------</option>
+<option value=FL>Yes </option>
+<option value=U> No  </option>
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Protein_Function_Keyword'>Protein Function Keyword</a></td>
+<td class=noborder align=left><input type ="text" size="20" name="proteinFunction">
+</td></tr>
+<tr><td class=noborder> &nbsp;</td>
+<td class=noborder><input type="submit" name="submit" value="Submit"> 
+&nbsp;
+
+<input type="reset" name="reset" value="Clear">
+</td></tr>
+</table>
+</FORM>
+<p>
+
+</div>
+
+</td>
+<td class=nopad width=20 bgcolor=#2E8E57>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td class=nopad>
+
+<div class=title>Mutant Query</div>
+<div class=main>
+<br>
+<FORM>
+<INPUT TYPE="button" VALUE='Browse Mutants' onClick="parent.location='MutantList'"> Go to list of all mutants.
+</FORM> 
+<p>
+<hr>
+
+
+<span class='label'>Query Mutant Information</span>
+<P>
+<FORM action="MutantList">
+
+<table class=nopad>
+<col width = 210>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Mutant_Class_Query'>Mutant Class</a></td>
+<td class=noborder align=left valign=top><select  name="mutantClass" size=1>
+<option value="">------------------------</option>
+
+<option value=ED> Embryo Defective  </option>
+<option value=SP> Seed Pigment</option>
+<option value=50M> 50% Defective Seeds</option>
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Gene_Identity_Confidence'>Gene Identity Confidence</a></td>
+<td class=noborder align=left valign=top><select  name="identityConfidence" size=1>
+<option value="">------------------------</option>
+<option value=C> Confirmed </option>
+<option value=NC> Not Confirmed </option>
+
+<!--
+<option value=UNC> Uncertain </option>
+<option value=QS> Questionable </option>
+-->
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Original_Seed_Source'>Original Seed Source</a></td>
+<td class=noborder align=left valign=top><select  name="originalSource" size=1>
+<option value="">------------------------</option>
+<option value=Syngenta> Syngenta </option>
+
+<option value=Salk> Salk </option>
+<option value=Riken> Riken </option>
+<option value=Genoplante> Genoplante </option>
+<option value=community> Community </option>
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Terminal_Phenotype_q'>Terminal Phenotype</a>&nbsp;&nbsp;<A class=sg title='Link Into SeedGenes' href="QueryMutantsByImage.html">Drawings</a></td>
+<td class=noborder align=left valign=top><select  name="phenotype" size=1>
+<option value="">------------------------</option>
+<option value=P> Preglobular  </option>
+
+<option value=G> Globular  </option>
+<option value=T> Transition </option>
+<option value=C> Cotyledon  </option>
+<option value=F> Fusca </option>
+<option value=PD> Pigment Defective</option>
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Special_Feature'>Special Feature</a></td>
+
+<td class=noborder align=left valign=top><select  name="feature" size=1>
+<option value="">------------------------</option>
+<option value=EC> Enlarged Embryo Cells </option>
+<option value=EN> Enlarged Embryo Nuclei </option>
+<option value=EE> Enlarged Endosperm Nuclei </option>
+<option value=ES> Enlarged Suspensor </option>
+<option value=TE> Twin Embryos </option>
+
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Nomarski_Images'>Nomarski Images</a></td>
+<td class=noborder align=left valign=top><select  name="nomarski" size=1>
+<option value="">------------------------</option>
+<option value=Y> Available </option>
+<option value=N> Not Available  </option>
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Mutagen_Type'>Mutagen Type</a></td>
+<td class=noborder align=left valign=top><select  name="mutagenType" size=1>
+<option value="">------------------------</option>
+
+<option value=T-DNA> T-DNA  </option>
+<option value=EMS> EMS </option>
+<option value=CH> Chemical </option>
+<option value=TN> Transposon </option>
+<option value=IR> Irradiation  </option>
+<option value=AS> Antisense </option>
+
+<option value=AT> Activation Tagging </option>
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Ecotype_Query'>Ecotype</a></td>
+<td class=noborder align=left valign=top><select  name="ecotype" size=1>
+<option value="">------------------------</option>
+<option value=COL> Columbia </option>
+<option value=WS> Wassilewskija </option>
+<option value=LER> Landsberg</option>
+
+<option value=U> Uncertain</option>
+<option value=OTHER> Other</option>
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Tagged_Insertion_Mutant'>Tagged Insertion Mutant</a></td>
+<td class=noborder align=left valign=top><select  name="insertMutant" size=1>
+<option value="">------------------------</option>
+<option value=Y> Yes </option>
+<option value=N> No </option>
+
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Border_Recovery_Rank'>Border Recovery Rank</a></td>
+<td class=noborder align=left valign=top><select  name="recoveryRank" size=1>
+<option value="">------------------------</option>
+<option value=A> A</option>
+<option value=B> B</option>
+<option value=Cs> Cs</option>
+<option value=C> C</option>
+
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Initial_Ratio_R_S_Seedlings'>Initial Ratio R:S Seedlings</a></td>
+<td class=noborder align=left valign=top><select  name="ratio" size=1>
+<option value="">------------------------</option>
+<option value=L> Low</option>
+<option value=M> Moderate </option>
+<option value=H> High </option>
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Aberrant_Segregation'>Aberrant Segregation</a></td>
+
+<td class=noborder align=left valign=top><select  name="aberrantSeg" size=1>
+<option value="">------------------------</option>
+<option value=Y> Yes </option>
+<option value=N> No  </option>
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Aberrant_Distribution'>Aberrant Distribution</a></td>
+<td class=noborder align=left valign=top><select  name="aberrantDis" size=1>
+<option value="">------------------------</option>
+<option value=Y> Yes </option>
+
+<option value=N> No  </option>
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Seed_Color_q'>Seed Color</a></td>
+<td class=noborder align=left valign=top><select  name="seedColor" size=1>
+<option value="">------------------------</option>
+<option value="White"> White</option>
+<option value="White to pale yellow"> White to Pale Yellow</option>
+<option value="Pale yellow"> Pale Yellow </option>
+
+<option value="Pale yellow-green"> Pale Yellow-Green </option>
+<option value="Pale green"> Pale Green </option>
+<option value="Pale green to green"> Pale Green to Green</option>
+<option value="Green"> Green </option>
+<option value="Fusca"> Anthocyanin Present </option>
+</select></td></tr>
+<tr><td class=noborder><A class=glossary title='Glossary Lookup' href='Glossary.html#Embryo_Color'>Embryo Color</a></td>
+
+<td class=noborder align=left valign=top><select  name="embryoColor" size=1>
+<option value="">------------------------</option>
+<option value="White"> White</option>
+<option value="White to pale yellow"> White to Pale Yellow</option>
+<option value="Pale yellow"> Pale Yellow </option>
+<option value="Pale yellow-green"> Pale Yellow-Green </option>
+<option value="Pale green"> Pale Green </option>
+
+<option value="Pale green to green"> Pale Green to Green</option>
+<option value="Green"> Green </option>
+<option value="Fusca"> Anthocyanin Present </option>
+</select></td></tr>
+<tr><td class=noborder></td>
+<td class=noborder><input type="submit" name="submit" value="Submit"> 
+&nbsp;&nbsp;
+<input type="reset" name="reset" value="Clear">
+</td></tr></table>
+</FORM>
+</div>
+</table>
+
+</div>
+
+<div class='footer'>Address comments to David Meinke, Project PI <a href="mailto:meinke@okstate.edu" class='footer_link'>(meinke@okstate.edu)</a></div>
+</body></html>

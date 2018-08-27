@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<TITLE>
+SeedGenes BLAST Results: EMB 3008 (At5g39750)
+</TITLE>
+
+<link rel='STYLESHEET' href='seedgenes.css' type='text/css'/>
+
+</HEAD><BODY>
+
+<div class=header><div class=logoPos1>&nbsp;</div><div class=logoPos2><a href='http://www.okstate.edu' ><img alt='OSU' SRC='images/osu.gif' border=0></a>&nbsp;<a href='http://www.syngenta.com'><img alt='Syngenta' SRC='images/syngenta.gif' border=0></a>&nbsp;<a href='http://www.vbi.vt.edu'><img alt='vbi' SRC='images/vbi.gif' border=0></a></div><a href='index.html'><img SRC='images/seedgenes.jpg' width='396' height='76' border=0></a></div>
+<div class=menu1><div class=menu2>
+<div class=date>Aug 17, 2018 4:39 PM</div>
+<a href='index.html'>Home</a> | 
+<a href='AccessPage.html'>Access Page</a> | <a href='SeedGenesQuery.html'>Database Query</a>
+</div></div>
+<div class=main700>
+<p>
+<div class=section>
+<div class=title>BLASTP: At5g39750 vs <i>Arabidopsis</i> Proteins</div>
+<table class='blast'>
+<tr>
+<td>Locus</td>
+<td>Score</td>
+<td>Alignment Length</td>
+<td>Percenty Identity</td>
+<td>Expect</td>
+</tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G39750.1')">AT5G39750.1</A></td><td>597</td><td>326</td><td>100</td><td>4.0000000000000004e-171</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G39810.1')">AT5G39810.1</A></td><td>520</td><td>326</td><td>87</td><td>4e-148</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G38740.1')">AT5G38740.1</A></td><td>403</td><td>317</td><td>72</td><td>6.999999999999999e-113</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G40220.1')">AT5G40220.1</A></td><td>348</td><td>297</td><td>67</td><td>2e-96</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G40120.1')">AT5G40120.1</A></td><td>344</td><td>369</td><td>57</td><td>6e-95</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G41200.1')">AT5G41200.1</A></td><td>341</td><td>300</td><td>65</td><td>5e-94</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G37415.1')">AT5G37415.1</A></td><td>296</td><td>224</td><td>75</td><td>2e-80</td></tr>
+</table><p>
+</div>
+<div class=section>
+<div class=title>TBLASTN: At5g39750 vs <a class=white href=http://compbio.dfci.harvard.edu/tgi/plant.html>DFCI Gene Indices</a> for Plant ESTs</div>
+<table class='blast'>
+<tr>
+<td>Taxon</td>
+<td>Dataset</td>
+<td>Number of Hits</td>
+<td>Max. Score</td>
+<td>Strongest E_value</td>
+</tr>
+<tr><td class='textleft'>Arabidopsis thaliana</td>
+<td>AGI.042210</td><td>18</td><td>596</td><td>2e-170</td></tr>
+</table><p>
+</div>
+<div class=section>
+<div class=title>BLASTP: At5g39750 vs Non-Plant Model Organism Proteins</div>
+<table class='blast'>
+<tr class='header'>
+<td>Taxon</td>
+<td>Number of Hits</td>
+<td>Max. Score</td>
+<td>Strongest E_value</td>
+</tr>
+</table><p>
+</div>
+</div>
+</body></html>

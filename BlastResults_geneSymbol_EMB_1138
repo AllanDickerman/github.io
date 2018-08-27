@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<TITLE>
+SeedGenes BLAST Results: EMB 1138 (At5g26742)
+</TITLE>
+
+<link rel='STYLESHEET' href='seedgenes.css' type='text/css'/>
+
+</HEAD><BODY>
+
+<div class=header><div class=logoPos1>&nbsp;</div><div class=logoPos2><a href='http://www.okstate.edu' ><img alt='OSU' SRC='images/osu.gif' border=0></a>&nbsp;<a href='http://www.syngenta.com'><img alt='Syngenta' SRC='images/syngenta.gif' border=0></a>&nbsp;<a href='http://www.vbi.vt.edu'><img alt='vbi' SRC='images/vbi.gif' border=0></a></div><a href='index.html'><img SRC='images/seedgenes.jpg' width='396' height='76' border=0></a></div>
+<div class=menu1><div class=menu2>
+<div class=date>Aug 17, 2018 4:38 PM</div>
+<a href='index.html'>Home</a> | 
+<a href='AccessPage.html'>Access Page</a> | <a href='SeedGenesQuery.html'>Database Query</a>
+</div></div>
+<div class=main700>
+<p>
+<div class=section>
+<div class=title>BLASTP: At5g26742 vs <i>Arabidopsis</i> Proteins</div>
+<table class='blast'>
+<tr>
+<td>Locus</td>
+<td>Score</td>
+<td>Alignment Length</td>
+<td>Percenty Identity</td>
+<td>Expect</td>
+</tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G26742.1')">AT5G26742.1</A></td><td>1338</td><td>748</td><td>98</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G22330.1')">AT3G22330.1</A></td><td>481</td><td>385</td><td>61</td><td>1e-135</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G22310.1')">AT3G22310.1</A></td><td>475</td><td>373</td><td>61</td><td>4e-134</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G62190.1')">AT5G62190.1</A></td><td>340</td><td>566</td><td>39</td><td>2e-93</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G01540.1')">AT3G01540.1</A></td><td>258</td><td>403</td><td>38</td><td>6.999999999999999e-69</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G14610.1')">AT5G14610.1</A></td><td>251</td><td>333</td><td>42</td><td>1.0000000000000001e-66</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G55150.1')">AT1G55150.1</A></td><td>247</td><td>362</td><td>37</td><td>2e-65</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G06480.1')">AT3G06480.1</A></td><td>243</td><td>350</td><td>40</td><td>3e-64</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G31970.1')">AT1G31970.1</A></td><td>236</td><td>339</td><td>42</td><td>5e-62</td></tr>
+</table><p>
+</div>
+<div class=section>
+<div class=title>TBLASTN: At5g26742 vs <a class=white href=http://compbio.dfci.harvard.edu/tgi/plant.html>DFCI Gene Indices</a> for Plant ESTs</div>
+<table class='blast'>
+<tr>
+<td>Taxon</td>
+<td>Dataset</td>
+<td>Number of Hits</td>
+<td>Max. Score</td>
+<td>Strongest E_value</td>
+</tr>
+<tr><td class='textleft'>Arabidopsis thaliana</td>
+<td>AGI.042210</td><td>71</td><td>1304</td><td>0</td></tr>
+<tr><td class='textleft'>Cotton (Gossypium)</td>
+<td>CGI.031910</td><td>50</td><td>949</td><td>0</td></tr>
+<tr><td class='textleft'>Populus</td>
+<td>PPLGI.042210</td><td>36</td><td>941</td><td>0</td></tr>
+<tr><td class='textleft'>Vitis vinifera</td>
+<td>VVGI.042210</td><td>36</td><td>926</td><td>0</td></tr>
+<tr><td class='textleft'>Rice (Oryza sativa)</td>
+<td>OGI.042210</td><td>73</td><td>903</td><td>0</td></tr>
+<tr><td class='textleft'>Brassica napus</td>
+<td>BNGI.031910</td><td>48</td><td>865</td><td>0</td></tr>
+<tr><td class='textleft'>Potato (Solanum tuberosum)</td>
+<td>STGI.042210</td><td>40</td><td>730</td><td>0</td></tr>
+<tr><td class='textleft'>Helianthus annuus</td>
+<td>HAGI.052909</td><td>20</td><td>595</td><td>2e-170</td></tr>
+<tr><td class='textleft'>Medicago truncatula</td>
+<td>MTGI.042210</td><td>41</td><td>587</td><td>0</td></tr>
+<tr><td class='textleft'>Spruce</td>
+<td>SGI.031910</td><td>37</td><td>586</td><td>3e-167</td></tr>
+<tr><td class='textleft'>Soybean (Glycine max)</td>
+<td>GMGI.042210</td><td>37</td><td>572</td><td>4.0000000000000003e-163</td></tr>
+<tr><td class='textleft'>Sorghum (Sorghum bicolor)</td>
+<td>SBGI.072508</td><td>12</td><td>568</td><td>0</td></tr>
+<tr><td class='textleft'>Maize (Zea mays)</td>
+<td>ZMGI.060509</td><td>56</td><td>479</td><td>1e-179</td></tr>
+<tr><td class='textleft'>Nicotiana tabacum</td>
+<td>NTGI.042210</td><td>37</td><td>466</td><td>3.0000000000000005e-131</td></tr>
+<tr><td class='textleft'>Tomato (Lycopersicon esculentum)</td>
+<td>LGI.042210</td><td>25</td><td>452</td><td>3e-127</td></tr>
+<tr><td class='textleft'>Pinus</td>
+<td>PGI.042210</td><td>28</td><td>390</td><td>2e-108</td></tr>
+<tr><td class='textleft'>Lotus japonicus</td>
+<td>LJGI.051810</td><td>11</td><td>365</td><td>5e-101</td></tr>
+<tr><td class='textleft'>Chlamydomonas reinhardtii</td>
+<td>CHRGI.042210</td><td>11</td><td>238</td><td>9e-63</td></tr>
+</table><p>
+</div>
+<div class=section>
+<div class=title>BLASTP: At5g26742 vs Non-Plant Model Organism Proteins</div>
+<table class='blast'>
+<tr class='header'>
+<td>Taxon</td>
+<td>Number of Hits</td>
+<td>Max. Score</td>
+<td>Strongest E_value</td>
+</tr>
+<tr><td class='textleft'>Homo sapiens</td>
+<td>44</td><td>365</td><td>1e-100</td></tr>
+<tr><td class='textleft'>Danio rerio</td>
+<td>31</td><td>364</td><td>1e-100</td></tr>
+<tr><td class='textleft'>Escherichia coli</td>
+<td>5</td><td>246</td><td>3e-66</td></tr>
+<tr><td class='textleft'>Synechocystis</td>
+<td>1</td><td>245</td><td>6e-66</td></tr>
+<tr><td class='textleft'>Saccharomyces cerevisiae</td>
+<td>21</td><td>241</td><td>3e-64</td></tr>
+<tr><td class='textleft'>Schizosaccharomyces pombe</td>
+<td>20</td><td>240</td><td>4.9999999999999997e-64</td></tr>
+<tr><td class='textleft'>Drosophila melanogaster</td>
+<td>39</td><td>233</td><td>3e-61</td></tr>
+<tr><td class='textleft'>Neurospora crassa</td>
+<td>15</td><td>232</td><td>2e-61</td></tr>
+<tr><td class='textleft'>Caenorhabditis elegans</td>
+<td>31</td><td>231</td><td>1.0000000000000001e-60</td></tr>
+</table><p>
+</div>
+</div>
+</body></html>

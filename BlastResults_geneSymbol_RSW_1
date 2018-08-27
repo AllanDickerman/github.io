@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<TITLE>
+SeedGenes BLAST Results: RSW 1 (At4g32410)
+</TITLE>
+
+<link rel='STYLESHEET' href='seedgenes.css' type='text/css'/>
+
+</HEAD><BODY>
+
+<div class=header><div class=logoPos1>&nbsp;</div><div class=logoPos2><a href='http://www.okstate.edu' ><img alt='OSU' SRC='images/osu.gif' border=0></a>&nbsp;<a href='http://www.syngenta.com'><img alt='Syngenta' SRC='images/syngenta.gif' border=0></a>&nbsp;<a href='http://www.vbi.vt.edu'><img alt='vbi' SRC='images/vbi.gif' border=0></a></div><a href='index.html'><img SRC='images/seedgenes.jpg' width='396' height='76' border=0></a></div>
+<div class=menu1><div class=menu2>
+<div class=date>Aug 17, 2018 4:39 PM</div>
+<a href='index.html'>Home</a> | 
+<a href='AccessPage.html'>Access Page</a> | <a href='SeedGenesQuery.html'>Database Query</a>
+</div></div>
+<div class=main700>
+<p>
+<div class=section>
+<div class=title>BLASTP: At4g32410 vs <i>Arabidopsis</i> Proteins</div>
+<table class='blast'>
+<tr>
+<td>Locus</td>
+<td>Score</td>
+<td>Alignment Length</td>
+<td>Percenty Identity</td>
+<td>Expect</td>
+</tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G32410.1')">AT4G32410.1</A></td><td>2149</td><td>1081</td><td>100</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G25540.1')">AT2G25540.1</A></td><td>1820</td><td>1080</td><td>84</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G05170.1')">AT5G05170.1</A></td><td>1478</td><td>1064</td><td>69</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G17420.1')">AT5G17420.1</A></td><td>1387</td><td>1073</td><td>65</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G09870.1')">AT5G09870.1</A></td><td>1375</td><td>1067</td><td>63</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G64740.1')">AT5G64740.1</A></td><td>1368</td><td>1085</td><td>63</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G39350.1')">AT4G39350.1</A></td><td>1362</td><td>1084</td><td>63</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G21770.1')">AT2G21770.1</A></td><td>1360</td><td>1090</td><td>62</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G44030.1')">AT5G44030.1</A></td><td>1344</td><td>1067</td><td>62</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G18780.1')">AT4G18780.1</A></td><td>1233</td><td>929</td><td>66</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G03050.1')">AT3G03050.1</A></td><td>809</td><td>939</td><td>47</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G16910.1')">AT5G16910.1</A></td><td>795</td><td>894</td><td>48</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G38190.1')">AT4G38190.1</A></td><td>790</td><td>923</td><td>46</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G33100.1')">AT2G33100.1</A></td><td>785</td><td>940</td><td>46</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G02730.1')">AT1G02730.1</A></td><td>782</td><td>901</td><td>47</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G32180.1')">AT1G32180.1</A></td><td>759</td><td>902</td><td>46</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G32530.1')">AT2G32530.1</A></td><td>394</td><td>770</td><td>32</td><td>2e-109</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G32620.1')">AT2G32620.1</A></td><td>394</td><td>764</td><td>33</td><td>2e-109</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G32540.1')">AT2G32540.1</A></td><td>392</td><td>780</td><td>32</td><td>5e-109</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G32610.1')">AT2G32610.1</A></td><td>390</td><td>781</td><td>32</td><td>2e-108</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G15290.1')">AT4G15290.1</A></td><td>380</td><td>752</td><td>33</td><td>3e-105</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G55850.1')">AT1G55850.1</A></td><td>281</td><td>368</td><td>41</td><td>2.0000000000000002e-75</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G23990.1')">AT4G23990.1</A></td><td>258</td><td>359</td><td>40</td><td>2e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G24010.1')">AT4G24010.1</A></td><td>257</td><td>379</td><td>39</td><td>3e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G24000.1')">AT4G24000.1</A></td><td>251</td><td>374</td><td>39</td><td>2.0000000000000002e-66</td></tr>
+</table><p>
+</div>
+<div class=section>
+<div class=title>TBLASTN: At4g32410 vs <a class=white href=http://compbio.dfci.harvard.edu/tgi/plant.html>DFCI Gene Indices</a> for Plant ESTs</div>
+<table class='blast'>
+<tr>
+<td>Taxon</td>
+<td>Dataset</td>
+<td>Number of Hits</td>
+<td>Max. Score</td>
+<td>Strongest E_value</td>
+</tr>
+<tr><td class='textleft'>Arabidopsis thaliana</td>
+<td>AGI.042210</td><td>56</td><td>2149</td><td>0</td></tr>
+<tr><td class='textleft'>Populus</td>
+<td>PPLGI.042210</td><td>69</td><td>1892</td><td>0</td></tr>
+<tr><td class='textleft'>Vitis vinifera</td>
+<td>VVGI.042210</td><td>77</td><td>1827</td><td>0</td></tr>
+<tr><td class='textleft'>Maize (Zea mays)</td>
+<td>ZMGI.060509</td><td>113</td><td>1773</td><td>0</td></tr>
+<tr><td class='textleft'>Rice (Oryza sativa)</td>
+<td>OGI.042210</td><td>86</td><td>1764</td><td>0</td></tr>
+<tr><td class='textleft'>Medicago truncatula</td>
+<td>MTGI.042210</td><td>63</td><td>1589</td><td>0</td></tr>
+<tr><td class='textleft'>Potato (Solanum tuberosum)</td>
+<td>STGI.042210</td><td>36</td><td>1518</td><td>0</td></tr>
+<tr><td class='textleft'>Cotton (Gossypium)</td>
+<td>CGI.031910</td><td>110</td><td>1496</td><td>0</td></tr>
+<tr><td class='textleft'>Brassica napus</td>
+<td>BNGI.031910</td><td>58</td><td>1472</td><td>0</td></tr>
+<tr><td class='textleft'>Pinus</td>
+<td>PGI.042210</td><td>46</td><td>1446</td><td>0</td></tr>
+<tr><td class='textleft'>Spruce</td>
+<td>SGI.031910</td><td>42</td><td>1323</td><td>0</td></tr>
+<tr><td class='textleft'>Nicotiana tabacum</td>
+<td>NTGI.042210</td><td>55</td><td>1266</td><td>0</td></tr>
+<tr><td class='textleft'>Sorghum (Sorghum bicolor)</td>
+<td>SBGI.072508</td><td>41</td><td>1081</td><td>0</td></tr>
+<tr><td class='textleft'>Soybean (Glycine max)</td>
+<td>GMGI.042210</td><td>82</td><td>951</td><td>0</td></tr>
+<tr><td class='textleft'>Lotus japonicus</td>
+<td>LJGI.051810</td><td>39</td><td>950</td><td>0</td></tr>
+<tr><td class='textleft'>Tomato (Lycopersicon esculentum)</td>
+<td>LGI.042210</td><td>34</td><td>915</td><td>0</td></tr>
+<tr><td class='textleft'>Helianthus annuus</td>
+<td>HAGI.052909</td><td>57</td><td>695</td><td>0</td></tr>
+</table><p>
+</div>
+<div class=section>
+<div class=title>BLASTP: At4g32410 vs Non-Plant Model Organism Proteins</div>
+<table class='blast'>
+<tr class='header'>
+<td>Taxon</td>
+<td>Number of Hits</td>
+<td>Max. Score</td>
+<td>Strongest E_value</td>
+</tr>
+</table><p>
+</div>
+</div>
+</body></html>

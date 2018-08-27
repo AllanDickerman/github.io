@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<TITLE>
+SeedGenes BLAST Results: FUG 1 (At1g17220)
+</TITLE>
+
+<link rel='STYLESHEET' href='seedgenes.css' type='text/css'/>
+
+</HEAD><BODY>
+
+<div class=header><div class=logoPos1>&nbsp;</div><div class=logoPos2><a href='http://www.okstate.edu' ><img alt='OSU' SRC='images/osu.gif' border=0></a>&nbsp;<a href='http://www.syngenta.com'><img alt='Syngenta' SRC='images/syngenta.gif' border=0></a>&nbsp;<a href='http://www.vbi.vt.edu'><img alt='vbi' SRC='images/vbi.gif' border=0></a></div><a href='index.html'><img SRC='images/seedgenes.jpg' width='396' height='76' border=0></a></div>
+<div class=menu1><div class=menu2>
+<div class=date>Aug 17, 2018 4:39 PM</div>
+<a href='index.html'>Home</a> | 
+<a href='AccessPage.html'>Access Page</a> | <a href='SeedGenesQuery.html'>Database Query</a>
+</div></div>
+<div class=main700>
+<p>
+<div class=section>
+<div class=title>BLASTP: At1g17220 vs <i>Arabidopsis</i> Proteins</div>
+<table class='blast'>
+<tr>
+<td>Locus</td>
+<td>Score</td>
+<td>Alignment Length</td>
+<td>Percenty Identity</td>
+<td>Expect</td>
+</tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G17220.1')">AT1G17220.1</A></td><td>1792</td><td>1010</td><td>100</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G11160.1')">AT4G11160.1</A></td><td>322</td><td>516</td><td>42</td><td>9e-88</td></tr>
+</table><p>
+</div>
+<div class=section>
+<div class=title>TBLASTN: At1g17220 vs <a class=white href=http://compbio.dfci.harvard.edu/tgi/plant.html>DFCI Gene Indices</a> for Plant ESTs</div>
+<table class='blast'>
+<tr>
+<td>Taxon</td>
+<td>Dataset</td>
+<td>Number of Hits</td>
+<td>Max. Score</td>
+<td>Strongest E_value</td>
+</tr>
+<tr><td class='textleft'>Arabidopsis thaliana</td>
+<td>AGI.042210</td><td>4</td><td>1789</td><td>0</td></tr>
+<tr><td class='textleft'>Vitis vinifera</td>
+<td>VVGI.042210</td><td>1</td><td>1100</td><td>0</td></tr>
+<tr><td class='textleft'>Rice (Oryza sativa)</td>
+<td>OGI.042210</td><td>8</td><td>748</td><td>0</td></tr>
+<tr><td class='textleft'>Maize (Zea mays)</td>
+<td>ZMGI.060509</td><td>4</td><td>721</td><td>0</td></tr>
+<tr><td class='textleft'>Spruce</td>
+<td>SGI.031910</td><td>4</td><td>701</td><td>0</td></tr>
+<tr><td class='textleft'>Brassica napus</td>
+<td>BNGI.031910</td><td>5</td><td>589</td><td>4e-175</td></tr>
+<tr><td class='textleft'>Helianthus annuus</td>
+<td>HAGI.052909</td><td>6</td><td>491</td><td>8e-139</td></tr>
+<tr><td class='textleft'>Nicotiana tabacum</td>
+<td>NTGI.042210</td><td>2</td><td>462</td><td>6e-130</td></tr>
+<tr><td class='textleft'>Cotton (Gossypium)</td>
+<td>CGI.031910</td><td>8</td><td>427</td><td>5e-119</td></tr>
+<tr><td class='textleft'>Sorghum (Sorghum bicolor)</td>
+<td>SBGI.072508</td><td>4</td><td>366</td><td>3e-120</td></tr>
+<tr><td class='textleft'>Potato (Solanum tuberosum)</td>
+<td>STGI.042210</td><td>3</td><td>350</td><td>2e-96</td></tr>
+<tr><td class='textleft'>Soybean (Glycine max)</td>
+<td>GMGI.042210</td><td>6</td><td>344</td><td>2e-94</td></tr>
+<tr><td class='textleft'>Populus</td>
+<td>PPLGI.042210</td><td>6</td><td>331</td><td>2e-90</td></tr>
+<tr><td class='textleft'>Tomato (Lycopersicon esculentum)</td>
+<td>LGI.042210</td><td>3</td><td>307</td><td>2e-83</td></tr>
+<tr><td class='textleft'>Medicago truncatula</td>
+<td>MTGI.042210</td><td>1</td><td>273</td><td>5e-73</td></tr>
+<tr><td class='textleft'>Pinus</td>
+<td>PGI.042210</td><td>4</td><td>216</td><td>4e-87</td></tr>
+<tr><td class='textleft'>Lotus japonicus</td>
+<td>LJGI.051810</td><td>1</td><td>198</td><td>9e-51</td></tr>
+</table><p>
+</div>
+<div class=section>
+<div class=title>BLASTP: At1g17220 vs Non-Plant Model Organism Proteins</div>
+<table class='blast'>
+<tr class='header'>
+<td>Taxon</td>
+<td>Number of Hits</td>
+<td>Max. Score</td>
+<td>Strongest E_value</td>
+</tr>
+<tr><td class='textleft'>Synechocystis</td>
+<td>1</td><td>550</td><td>2e-157</td></tr>
+<tr><td class='textleft'>Escherichia coli</td>
+<td>1</td><td>422</td><td>7.000000000000001e-119</td></tr>
+<tr><td class='textleft'>Danio rerio</td>
+<td>1</td><td>331</td><td>2e-90</td></tr>
+<tr><td class='textleft'>Homo sapiens</td>
+<td>2</td><td>328</td><td>1e-89</td></tr>
+<tr><td class='textleft'>Drosophila melanogaster</td>
+<td>1</td><td>291</td><td>1e-78</td></tr>
+<tr><td class='textleft'>Neurospora crassa</td>
+<td>1</td><td>285</td><td>3e-77</td></tr>
+<tr><td class='textleft'>Schizosaccharomyces pombe</td>
+<td>1</td><td>283</td><td>8e-77</td></tr>
+<tr><td class='textleft'>Saccharomyces cerevisiae</td>
+<td>1</td><td>275</td><td>4e-74</td></tr>
+<tr><td class='textleft'>Caenorhabditis elegans</td>
+<td>1</td><td>256</td><td>3e-68</td></tr>
+</table><p>
+</div>
+</div>
+</body></html>

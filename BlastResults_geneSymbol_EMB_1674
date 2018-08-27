@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<TITLE>
+SeedGenes BLAST Results: EMB 1674 (At1g58210)
+</TITLE>
+
+<link rel='STYLESHEET' href='seedgenes.css' type='text/css'/>
+
+</HEAD><BODY>
+
+<div class=header><div class=logoPos1>&nbsp;</div><div class=logoPos2><a href='http://www.okstate.edu' ><img alt='OSU' SRC='images/osu.gif' border=0></a>&nbsp;<a href='http://www.syngenta.com'><img alt='Syngenta' SRC='images/syngenta.gif' border=0></a>&nbsp;<a href='http://www.vbi.vt.edu'><img alt='vbi' SRC='images/vbi.gif' border=0></a></div><a href='index.html'><img SRC='images/seedgenes.jpg' width='396' height='76' border=0></a></div>
+<div class=menu1><div class=menu2>
+<div class=date>Aug 17, 2018 4:39 PM</div>
+<a href='index.html'>Home</a> | 
+<a href='AccessPage.html'>Access Page</a> | <a href='SeedGenesQuery.html'>Database Query</a>
+</div></div>
+<div class=main700>
+<p>
+<div class=section>
+<div class=title>BLASTP: At1g58210 vs <i>Arabidopsis</i> Proteins</div>
+<table class='blast'>
+<tr>
+<td>Locus</td>
+<td>Score</td>
+<td>Alignment Length</td>
+<td>Percenty Identity</td>
+<td>Expect</td>
+</tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G58210.1')">AT1G58210.1</A></td><td>2407</td><td>1246</td><td>100</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G09720.1')">AT1G09720.1</A></td><td>1062</td><td>922</td><td>64</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G10500.1')">AT5G10500.1</A></td><td>437</td><td>932</td><td>34</td><td>9.999999999999999e-123</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G22560.1')">AT2G22560.1</A></td><td>311</td><td>431</td><td>42</td><td>1.9999999999999998e-84</td></tr>
+</table><p>
+</div>
+<div class=section>
+<div class=title>TBLASTN: At1g58210 vs <a class=white href=http://compbio.dfci.harvard.edu/tgi/plant.html>DFCI Gene Indices</a> for Plant ESTs</div>
+<table class='blast'>
+<tr>
+<td>Taxon</td>
+<td>Dataset</td>
+<td>Number of Hits</td>
+<td>Max. Score</td>
+<td>Strongest E_value</td>
+</tr>
+<tr><td class='textleft'>Arabidopsis thaliana</td>
+<td>AGI.042210</td><td>11</td><td>2406</td><td>0</td></tr>
+<tr><td class='textleft'>Tomato (Lycopersicon esculentum)</td>
+<td>LGI.042210</td><td>4</td><td>574</td><td>6.000000000000001e-168</td></tr>
+<tr><td class='textleft'>Rice (Oryza sativa)</td>
+<td>OGI.042210</td><td>10</td><td>459</td><td>1.9999999999999999e-128</td></tr>
+<tr><td class='textleft'>Vitis vinifera</td>
+<td>VVGI.042210</td><td>2</td><td>360</td><td>5.0000000000000005e-99</td></tr>
+<tr><td class='textleft'>Brassica napus</td>
+<td>BNGI.031910</td><td>3</td><td>320</td><td>5e-87</td></tr>
+<tr><td class='textleft'>Maize (Zea mays)</td>
+<td>ZMGI.060509</td><td>1</td><td>186</td><td>2e-46</td></tr>
+<tr><td class='textleft'>Soybean (Glycine max)</td>
+<td>GMGI.042210</td><td>3</td><td>156</td><td>1e-37</td></tr>
+<tr><td class='textleft'>Nicotiana tabacum</td>
+<td>NTGI.042210</td><td>1</td><td>155</td><td>2e-37</td></tr>
+</table><p>
+</div>
+<div class=section>
+<div class=title>BLASTP: At1g58210 vs Non-Plant Model Organism Proteins</div>
+<table class='blast'>
+<tr class='header'>
+<td>Taxon</td>
+<td>Number of Hits</td>
+<td>Max. Score</td>
+<td>Strongest E_value</td>
+</tr>
+</table><p>
+</div>
+</div>
+</body></html>

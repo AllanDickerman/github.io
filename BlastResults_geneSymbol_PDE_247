@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<TITLE>
+SeedGenes BLAST Results: PDE 247 (At1g05750)
+</TITLE>
+
+<link rel='STYLESHEET' href='seedgenes.css' type='text/css'/>
+
+</HEAD><BODY>
+
+<div class=header><div class=logoPos1>&nbsp;</div><div class=logoPos2><a href='http://www.okstate.edu' ><img alt='OSU' SRC='images/osu.gif' border=0></a>&nbsp;<a href='http://www.syngenta.com'><img alt='Syngenta' SRC='images/syngenta.gif' border=0></a>&nbsp;<a href='http://www.vbi.vt.edu'><img alt='vbi' SRC='images/vbi.gif' border=0></a></div><a href='index.html'><img SRC='images/seedgenes.jpg' width='396' height='76' border=0></a></div>
+<div class=menu1><div class=menu2>
+<div class=date>Aug 17, 2018 4:39 PM</div>
+<a href='index.html'>Home</a> | 
+<a href='AccessPage.html'>Access Page</a> | <a href='SeedGenesQuery.html'>Database Query</a>
+</div></div>
+<div class=main700>
+<p>
+<div class=section>
+<div class=title>BLASTP: At1g05750 vs <i>Arabidopsis</i> Proteins</div>
+<table class='blast'>
+<tr>
+<td>Locus</td>
+<td>Score</td>
+<td>Alignment Length</td>
+<td>Percenty Identity</td>
+<td>Expect</td>
+</tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G05750.1')">AT1G05750.1</A></td><td>1046</td><td>500</td><td>100</td><td>0</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G20540.1')">AT2G20540.1</A></td><td>369</td><td>454</td><td>39</td><td>2e-102</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G13600.1')">AT2G13600.1</A></td><td>351</td><td>455</td><td>40</td><td>5e-97</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G29760.1')">AT2G29760.1</A></td><td>341</td><td>456</td><td>38</td><td>5e-94</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G37380.1')">AT4G37380.1</A></td><td>340</td><td>483</td><td>37</td><td>8e-94</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G66520.1')">AT5G66520.1</A></td><td>336</td><td>433</td><td>40</td><td>2e-92</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G22410.1')">AT2G22410.1</A></td><td>327</td><td>459</td><td>37</td><td>8e-90</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G49140.1')">AT3G49140.1</A></td><td>326</td><td>494</td><td>35</td><td>2e-89</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G40405.1')">AT5G40405.1</A></td><td>322</td><td>489</td><td>38</td><td>3e-88</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G59200.1')">AT5G59200.1</A></td><td>320</td><td>457</td><td>35</td><td>1e-87</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G15930.1')">AT3G15930.1</A></td><td>320</td><td>454</td><td>34</td><td>1e-87</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G20230.1')">AT1G20230.1</A></td><td>318</td><td>457</td><td>37</td><td>5e-87</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G48910.1')">AT5G48910.1</A></td><td>315</td><td>476</td><td>36</td><td>3e-86</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G29230.1')">AT3G29230.1</A></td><td>310</td><td>537</td><td>33</td><td>9.999999999999999e-85</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G14820.1')">AT4G14820.1</A></td><td>309</td><td>465</td><td>35</td><td>1.9999999999999998e-84</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G31430.1')">AT1G31430.1</A></td><td>307</td><td>436</td><td>37</td><td>9e-84</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G04750.1')">AT3G04750.1</A></td><td>307</td><td>442</td><td>37</td><td>1e-83</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G22690.1')">AT3G22690.1</A></td><td>306</td><td>434</td><td>38</td><td>2e-83</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G74630.1')">AT1G74630.1</A></td><td>306</td><td>438</td><td>38</td><td>2e-83</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G21065.1')">AT4G21065.1</A></td><td>305</td><td>486</td><td>35</td><td>4e-83</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G06540.1')">AT5G06540.1</A></td><td>301</td><td>450</td><td>37</td><td>7e-82</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G42920.1')">AT2G42920.1</A></td><td>300</td><td>472</td><td>35</td><td>1.0000000000000001e-81</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G02750.1')">AT4G02750.1</A></td><td>300</td><td>458</td><td>35</td><td>2.0000000000000002e-81</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G06145.1')">AT1G06145.1</A></td><td>298</td><td>459</td><td>35</td><td>4.0000000000000003e-81</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G57430.1')">AT3G57430.1</A></td><td>297</td><td>541</td><td>32</td><td>1e-80</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G59720.1')">AT1G59720.1</A></td><td>296</td><td>369</td><td>42</td><td>1e-80</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G44880.1')">AT2G44880.1</A></td><td>296</td><td>441</td><td>35</td><td>2e-80</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G33350.1')">AT1G33350.1</A></td><td>295</td><td>418</td><td>38</td><td>3e-80</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G56310.1')">AT5G56310.1</A></td><td>295</td><td>401</td><td>38</td><td>3e-80</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G08510.1')">AT5G08510.1</A></td><td>295</td><td>435</td><td>37</td><td>4e-80</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G02330.1')">AT3G02330.1</A></td><td>292</td><td>449</td><td>34</td><td>3e-79</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G38010.1')">AT4G38010.1</A></td><td>291</td><td>418</td><td>37</td><td>6e-79</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G25360.1')">AT1G25360.1</A></td><td>291</td><td>459</td><td>33</td><td>8e-79</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G08820.1')">AT3G08820.1</A></td><td>290</td><td>471</td><td>33</td><td>1e-78</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G21300.1')">AT4G21300.1</A></td><td>290</td><td>460</td><td>35</td><td>2e-78</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G14050.1')">AT4G14050.1</A></td><td>289</td><td>426</td><td>36</td><td>3e-78</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G15340.1')">AT5G15340.1</A></td><td>289</td><td>464</td><td>34</td><td>4e-78</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G16835.1')">AT4G16835.1</A></td><td>288</td><td>478</td><td>34</td><td>5e-78</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G02980.1')">AT2G02980.1</A></td><td>288</td><td>434</td><td>36</td><td>5e-78</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G13410.1')">AT1G13410.1</A></td><td>287</td><td>442</td><td>35</td><td>9e-78</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G44230.1')">AT5G44230.1</A></td><td>286</td><td>454</td><td>36</td><td>2e-77</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G08310.1')">AT5G08310.1</A></td><td>285</td><td>431</td><td>37</td><td>4e-77</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G62890.1')">AT3G62890.1</A></td><td>285</td><td>433</td><td>36</td><td>6e-77</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G08070.1')">AT1G08070.1</A></td><td>285</td><td>459</td><td>34</td><td>7e-77</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G11290.1')">AT1G11290.1</A></td><td>282</td><td>457</td><td>34</td><td>2.9999999999999996e-76</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G35030.1')">AT2G35030.1</A></td><td>282</td><td>451</td><td>35</td><td>4e-76</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G15300.1')">AT5G15300.1</A></td><td>281</td><td>431</td><td>36</td><td>5e-76</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G13770.1')">AT3G13770.1</A></td><td>280</td><td>463</td><td>33</td><td>1.0000000000000001e-75</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G68930.1')">AT1G68930.1</A></td><td>280</td><td>449</td><td>34</td><td>2.0000000000000002e-75</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G53600.1')">AT1G53600.1</A></td><td>278</td><td>471</td><td>33</td><td>5.000000000000001e-75</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G45350.1')">AT2G45350.1</A></td><td>278</td><td>446</td><td>34</td><td>8.000000000000001e-75</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G18840.1')">AT4G18840.1</A></td><td>278</td><td>412</td><td>35</td><td>9e-75</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G12770.1')">AT3G12770.1</A></td><td>277</td><td>456</td><td>35</td><td>1e-74</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G23330.1')">AT3G23330.1</A></td><td>276</td><td>529</td><td>29</td><td>2e-74</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G30700.1')">AT4G30700.1</A></td><td>276</td><td>456</td><td>35</td><td>3e-74</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G19191.1')">AT4G19191.1</A></td><td>276</td><td>447</td><td>35</td><td>3e-74</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G37170.1')">AT4G37170.1</A></td><td>275</td><td>459</td><td>34</td><td>4e-74</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G49170.1')">AT3G49170.1</A></td><td>275</td><td>460</td><td>35</td><td>5e-74</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G09190.1')">AT1G09190.1</A></td><td>274</td><td>400</td><td>37</td><td>9e-74</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G11460.1')">AT3G11460.1</A></td><td>271</td><td>465</td><td>33</td><td>5e-73</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G33990.1')">AT4G33990.1</A></td><td>270</td><td>457</td><td>33</td><td>1.0000000000000001e-72</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G47530.1')">AT3G47530.1</A></td><td>270</td><td>357</td><td>38</td><td>1.0000000000000001e-72</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G16860.1')">AT5G16860.1</A></td><td>270</td><td>445</td><td>36</td><td>1.0000000000000001e-72</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G01510.1')">AT2G01510.1</A></td><td>270</td><td>460</td><td>33</td><td>2.0000000000000002e-72</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G24000.1')">AT3G24000.1</A></td><td>266</td><td>456</td><td>32</td><td>2e-71</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G37310.1')">AT2G37310.1</A></td><td>266</td><td>454</td><td>32</td><td>2e-71</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G03880.1')">AT2G03880.1</A></td><td>266</td><td>474</td><td>32</td><td>2e-71</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G04780.1')">AT5G04780.1</A></td><td>265</td><td>441</td><td>33</td><td>5e-71</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G46790.1')">AT3G46790.1</A></td><td>265</td><td>466</td><td>34</td><td>5.9999999999999995e-71</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G28640.1')">AT3G28640.1</A></td><td>265</td><td>424</td><td>35</td><td>5.9999999999999995e-71</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G21090.1')">AT2G21090.1</A></td><td>265</td><td>432</td><td>34</td><td>5.9999999999999995e-71</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G47840.1')">AT3G47840.1</A></td><td>264</td><td>445</td><td>34</td><td>1e-70</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G50270.1')">AT1G50270.1</A></td><td>263</td><td>450</td><td>32</td><td>1e-70</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G39530.1')">AT4G39530.1</A></td><td>263</td><td>433</td><td>35</td><td>2.9999999999999995e-70</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G27610.1')">AT2G27610.1</A></td><td>263</td><td>449</td><td>34</td><td>2.9999999999999995e-70</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G09040.1')">AT3G09040.1</A></td><td>262</td><td>448</td><td>34</td><td>5e-70</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G77170.1')">AT1G77170.1</A></td><td>261</td><td>301</td><td>42</td><td>5e-70</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G17630.1')">AT1G17630.1</A></td><td>261</td><td>471</td><td>31</td><td>5e-70</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G22070.1')">AT2G22070.1</A></td><td>261</td><td>467</td><td>33</td><td>7e-70</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G55740.1')">AT5G55740.1</A></td><td>261</td><td>490</td><td>31</td><td>8.999999999999999e-70</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G09410.1')">AT1G09410.1</A></td><td>261</td><td>510</td><td>30</td><td>1e-69</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G08490.1')">AT5G08490.1</A></td><td>259</td><td>440</td><td>31</td><td>2e-69</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G56550.1')">AT3G56550.1</A></td><td>259</td><td>343</td><td>37</td><td>2e-69</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G36980.1')">AT2G36980.1</A></td><td>259</td><td>451</td><td>32</td><td>3e-69</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G34160.1')">AT1G34160.1</A></td><td>259</td><td>356</td><td>39</td><td>4e-69</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G13230.1')">AT5G13230.1</A></td><td>258</td><td>478</td><td>31</td><td>4.999999999999999e-69</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G03580.1')">AT3G03580.1</A></td><td>258</td><td>461</td><td>32</td><td>6e-69</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G14330.1')">AT3G14330.1</A></td><td>258</td><td>416</td><td>34</td><td>8e-69</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G18750.1')">AT4G18750.1</A></td><td>257</td><td>459</td><td>30</td><td>1e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G04840.1')">AT1G04840.1</A></td><td>257</td><td>471</td><td>32</td><td>1e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G53360.1')">AT3G53360.1</A></td><td>257</td><td>456</td><td>33</td><td>1e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G26782.1')">AT3G26782.1</A></td><td>257</td><td>465</td><td>33</td><td>1e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G01580.1')">AT3G01580.1</A></td><td>256</td><td>470</td><td>32</td><td>2e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G56690.1')">AT1G56690.1</A></td><td>256</td><td>453</td><td>32</td><td>2e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G40410.1')">AT5G40410.1</A></td><td>256</td><td>450</td><td>31</td><td>3e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G05240.1')">AT3G05240.1</A></td><td>256</td><td>420</td><td>33</td><td>3e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G28690.1')">AT1G28690.1</A></td><td>255</td><td>361</td><td>36</td><td>4e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G37320.1')">AT2G37320.1</A></td><td>255</td><td>335</td><td>41</td><td>4e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G50990.1')">AT5G50990.1</A></td><td>255</td><td>350</td><td>37</td><td>4e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G19020.1')">AT5G19020.1</A></td><td>255</td><td>426</td><td>34</td><td>5.0000000000000005e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G28660.1')">AT3G28660.1</A></td><td>255</td><td>422</td><td>33</td><td>5.0000000000000005e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G33170.1')">AT4G33170.1</A></td><td>254</td><td>469</td><td>33</td><td>7e-68</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G77010.1')">AT1G77010.1</A></td><td>254</td><td>420</td><td>33</td><td>1e-67</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G25970.1')">AT3G25970.1</A></td><td>254</td><td>438</td><td>35</td><td>1e-67</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G09950.1')">AT5G09950.1</A></td><td>253</td><td>462</td><td>34</td><td>2e-67</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G02010.1')">AT3G02010.1</A></td><td>251</td><td>345</td><td>35</td><td>5e-67</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G43790.1')">AT5G43790.1</A></td><td>250</td><td>388</td><td>35</td><td>1.0000000000000001e-66</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G22150.1')">AT3G22150.1</A></td><td>250</td><td>453</td><td>31</td><td>2.0000000000000002e-66</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G31920.1')">AT1G31920.1</A></td><td>249</td><td>435</td><td>32</td><td>2.0000000000000002e-66</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G21470.1')">AT3G21470.1</A></td><td>248</td><td>426</td><td>32</td><td>6e-66</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G49710.1')">AT3G49710.1</A></td><td>247</td><td>458</td><td>32</td><td>1e-65</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G10330.1')">AT1G10330.1</A></td><td>247</td><td>421</td><td>33</td><td>1e-65</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT2G33760.1')">AT2G33760.1</A></td><td>246</td><td>427</td><td>32</td><td>2e-65</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G14170.1')">AT4G14170.1</A></td><td>246</td><td>414</td><td>34</td><td>2e-65</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT3G16610.1')">AT3G16610.1</A></td><td>246</td><td>421</td><td>34</td><td>2e-65</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G09220.1')">AT1G09220.1</A></td><td>245</td><td>338</td><td>38</td><td>4e-65</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G56570.1')">AT1G56570.1</A></td><td>245</td><td>349</td><td>34</td><td>5e-65</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G61800.1')">AT5G61800.1</A></td><td>242</td><td>425</td><td>32</td><td>4e-64</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G13650.1')">AT4G13650.1</A></td><td>241</td><td>441</td><td>31</td><td>6.999999999999999e-64</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G69350.1')">AT1G69350.1</A></td><td>241</td><td>512</td><td>30</td><td>9e-64</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G03510.1')">AT1G03510.1</A></td><td>241</td><td>424</td><td>33</td><td>9.999999999999999e-64</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G42450.1')">AT5G42450.1</A></td><td>240</td><td>397</td><td>36</td><td>9.999999999999999e-64</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G74400.1')">AT1G74400.1</A></td><td>240</td><td>345</td><td>36</td><td>1.9999999999999999e-63</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT1G71490.1')">AT1G71490.1</A></td><td>238</td><td>449</td><td>32</td><td>6e-63</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G13270.1')">AT5G13270.1</A></td><td>237</td><td>449</td><td>31</td><td>1e-62</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT5G39350.1')">AT5G39350.1</A></td><td>237</td><td>420</td><td>32</td><td>1e-62</td></tr>
+<tr><td><A class='tair' title='Link to TAIR' HREF="javascript:tairGene('AT4G16470.1')">AT4G16470.1</A></td><td>236</td><td>297</td><td>40</td><td>2.9999999999999997e-62</td></tr>
+</table><p>
+</div>
+<div class=section>
+<div class=title>TBLASTN: At1g05750 vs <a class=white href=http://compbio.dfci.harvard.edu/tgi/plant.html>DFCI Gene Indices</a> for Plant ESTs</div>
+<table class='blast'>
+<tr>
+<td>Taxon</td>
+<td>Dataset</td>
+<td>Number of Hits</td>
+<td>Max. Score</td>
+<td>Strongest E_value</td>
+</tr>
+<tr><td class='textleft'>Arabidopsis thaliana</td>
+<td>AGI.042210</td><td>288</td><td>1046</td><td>0</td></tr>
+<tr><td class='textleft'>Medicago truncatula</td>
+<td>MTGI.042210</td><td>112</td><td>534</td><td>6e-152</td></tr>
+<tr><td class='textleft'>Rice (Oryza sativa)</td>
+<td>OGI.042210</td><td>293</td><td>441</td><td>2e-123</td></tr>
+<tr><td class='textleft'>Vitis vinifera</td>
+<td>VVGI.042210</td><td>200</td><td>378</td><td>1e-104</td></tr>
+<tr><td class='textleft'>Spruce</td>
+<td>SGI.031910</td><td>116</td><td>347</td><td>1e-95</td></tr>
+<tr><td class='textleft'>Maize (Zea mays)</td>
+<td>ZMGI.060509</td><td>58</td><td>331</td><td>2e-90</td></tr>
+<tr><td class='textleft'>Pinus</td>
+<td>PGI.042210</td><td>71</td><td>304</td><td>1.0000000000000001e-82</td></tr>
+<tr><td class='textleft'>Cotton (Gossypium)</td>
+<td>CGI.031910</td><td>42</td><td>274</td><td>2e-73</td></tr>
+<tr><td class='textleft'>Nicotiana tabacum</td>
+<td>NTGI.042210</td><td>20</td><td>274</td><td>1e-73</td></tr>
+<tr><td class='textleft'>Sorghum (Sorghum bicolor)</td>
+<td>SBGI.072508</td><td>11</td><td>270</td><td>9e-73</td></tr>
+<tr><td class='textleft'>Populus</td>
+<td>PPLGI.042210</td><td>20</td><td>253</td><td>4e-67</td></tr>
+<tr><td class='textleft'>Lotus japonicus</td>
+<td>LJGI.051810</td><td>15</td><td>248</td><td>4.0000000000000004e-66</td></tr>
+<tr><td class='textleft'>Brassica napus</td>
+<td>BNGI.031910</td><td>29</td><td>244</td><td>1e-64</td></tr>
+<tr><td class='textleft'>Soybean (Glycine max)</td>
+<td>GMGI.042210</td><td>22</td><td>213</td><td>2e-55</td></tr>
+<tr><td class='textleft'>Potato (Solanum tuberosum)</td>
+<td>STGI.042210</td><td>16</td><td>197</td><td>1.9999999999999998e-50</td></tr>
+<tr><td class='textleft'>Tomato (Lycopersicon esculentum)</td>
+<td>LGI.042210</td><td>7</td><td>174</td><td>7e-44</td></tr>
+<tr><td class='textleft'>Helianthus annuus</td>
+<td>HAGI.052909</td><td>11</td><td>168</td><td>3e-61</td></tr>
+</table><p>
+</div>
+<div class=section>
+<div class=title>BLASTP: At1g05750 vs Non-Plant Model Organism Proteins</div>
+<table class='blast'>
+<tr class='header'>
+<td>Taxon</td>
+<td>Number of Hits</td>
+<td>Max. Score</td>
+<td>Strongest E_value</td>
+</tr>
+</table><p>
+</div>
+</div>
+</body></html>
