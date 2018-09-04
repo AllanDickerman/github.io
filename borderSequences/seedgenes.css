@@ -1,1 +1,272 @@
-seedgenes.css
+body {
+	background-color: #E8FFFF;
+	background-color: #FFE8FF;
+	background-color: #DDEEFF;
+	margin: 0;
+	padding: 0;
+}
+
+H1 {
+  margin-top: 0.5em; margin-left: 0em; margin-bottom: 0.3em; font-family: serif;
+}
+
+.new {color: #ffcc00}
+
+div.main { margin-left: 0.5em; margin-right: 0.5em; }
+
+div.main600 {
+	margin-left: 1.5em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+	width: 600px
+}
+
+div.main500 {
+	margin-left: 1.5em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+	width: 500px;
+}
+div.main700 {
+	margin-left: 1.5em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+	width: 700px
+}
+div.header {
+  margin: 0;
+  padding: 0.5em;
+  background-color: white;
+}
+div.logoPos1 { float: right; height: 35px;}
+div.logoPos2 { float: right; height: 35px; width: 286px; clear: right }
+
+
+div.menu1 { background: #ffcc00; margin: 0; }
+div.menu2 { 
+  background: #32CD32; 
+  margin-left: 120px; 
+  padding-left: 5px; 
+  color: #ffffff; 
+  text-decoration: none
+}
+div.date { float: right; color: black; clear: both}
+div.right { float: right; padding-right: 1em;}
+
+li.pub {padding-top: 0.5em;}
+
+.small_label 
+	{ 
+	font-size: smaller; 
+	font-weight: bold;
+	font-family: sans-serif; 
+	}
+
+.label { font-weight: bold }
+
+.sg {
+	font-size: smaller; 
+	font-family: sans-serif; 
+	font-weight: bold;
+	color: maroon;
+}
+.sgLarge {
+	font-family: sans-serif; 
+	font-weight: bold;
+	color: maroon;
+	font-size: smaller;
+}
+.glossary {
+	TEXT-DECORATION: none; 
+	font-size: smaller; 
+	font-family: sans-serif; 
+	font-weight: bold;
+	color: purple;
+}
+.tair {
+	color: #006633;
+	font-size: smaller; 
+	font-weight: bold;
+}
+span.tigr {
+	color: blue;
+	font-size: smaller; 
+	font-weight: bold;
+}
+A.tigr {
+	color: blue;
+}
+A.genbank {
+	color: teal;
+}
+A.footer_link {
+	font-size: smaller;
+	font-style: italic;
+	color: white;
+}
+
+A.white {color: white}
+
+div.title {
+  padding: 0.2em;
+  padding-left: 1em; 
+  background-color: #2E8E57; 
+  color: white; 
+  font-weight: bold; 
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+table
+{
+        border-width: 2px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: gray;
+	border-collapse: collapse;
+    width: 100%;
+}
+
+td
+{
+        border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	border-color: gray;   
+}
+.textleft
+{
+	text-align: left;
+}
+.textright
+{
+	text-align: right;
+}
+tr.header
+{
+        border-width: 1px;
+	border-style: inset;
+	border-color: gray;   
+}
+
+table.blast
+{
+	width: 700px;
+	text-align: center;
+}
+
+table.list {
+	text-align: center;
+}
+table.abrc {
+	width: 300px;
+}
+.nopad
+{
+	border-width: 0;
+	padding: 0;
+}
+.noborder
+{
+	border-width: 0;
+	padding: 2px;
+}
+
+td.embryoImage
+{
+	border-width: 0;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+td.embryoCommon
+{
+	border-width: 0;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+td.embryoRare
+{
+	border-width: 0;
+	font-weight: bold;
+	color: gray;
+	text-align: center;
+}
+
+img.embryoCommon
+{
+	border-style: solid;
+	border-width: 2px;
+}
+
+img.embryoRare
+{
+	border-style: dotted;
+	border-width: 2px;
+}
+
+table.title {
+	border-style: none; 
+	padding: 0; 
+	margin: 0; 
+	width: 100%; 
+	background-color: #2E8E57; 
+	color: white; 
+	font-weight: bold; 
+	font-family: sans-serif;
+}
+
+table.footer {
+	border-style: none; 
+	padding: 0; 
+	margin: 0; 
+	width: 100%; 
+	background-color: #2E8E57; 
+	color: white; 
+	font-weight: bold; 
+	font-family: sans-serif;
+	font-size: smaller;
+}
+
+div.footer {
+	width: 100%; 
+	background-color: #2E8E57; 
+	color: white; 
+	font-weight: bold; 
+	font-family: sans-serif;
+	font-size: smaller;
+}
+
+tr.label
+{	
+  font-weight: bold; 
+  font-family: sans-serif;
+  font-size: smaller;
+}
+
+table.menu 
+{
+  border: 0; 
+  padding: 0; 
+  margin: 0;
+  width: 100%; 
+  background-color: #32CD32; 
+}
+
+table.header 
+{
+  background-color: white;
+  border: 0;
+  width: 100%;
+}
+
+dt.g { padding-top: 0.5em }
+
+ul { margin-top: 0 }
+ol { margin-top: 0 }
+
+table.tut {margin-left: 2em; margin-top: 0em;}
+td.tut {padding-right: 1em} 
+img.lgimg {padding: 0em; border: none; margin-top: 1em;}
+div.cnt {text-align: center; padding: 1em}
